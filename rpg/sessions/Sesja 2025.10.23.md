@@ -7,9 +7,9 @@ Hylas Popełnił samobójstwo po śmierci ukochanej 
 
 Rod poprzednich władców info
 
-[[Mermnad]] rod - Byli polbostwami potomkami [[Selvan]]
+[[Mermnad]] rod - Byli półbóstwami potomkami [[Selvan]]
   
-Batykles 3 ostatni z rodu panujacego umarł 1000. Jego dzieci przeżyły.
+[[Bathykles 3]] ostatni z rodu panującego umarł 1000. Jego dzieci przeżyły.
 
 [[Selvan]] bóstwo granic. 
 
