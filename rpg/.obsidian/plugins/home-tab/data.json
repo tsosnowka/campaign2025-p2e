@@ -1,0 +1,54 @@
+{
+  "logoType": "default",
+  "logo": {
+    "lucideIcon": "",
+    "imagePath": "",
+    "imageLink": ""
+  },
+  "logoScale": 1.2,
+  "iconColorType": "default",
+  "wordmark": "Obsidian",
+  "customFont": "interfaceFont",
+  "fontSize": "4em",
+  "fontColorType": "default",
+  "fontWeight": 600,
+  "maxResults": 5,
+  "showbookmarkedFiles": true,
+  "showRecentFiles": false,
+  "maxRecentFiles": 5,
+  "storeRecentFile": true,
+  "showPath": true,
+  "selectionHighlight": "default",
+  "showShortcuts": true,
+  "markdownOnly": false,
+  "unresolvedLinks": false,
+  "recentFilesStore": [
+    {
+      "filepath": "Main.md",
+      "timestamp": 1760439963276
+    },
+    {
+      "filepath": "gm/Historia Orphne info od GM.md",
+      "timestamp": 1760439960473
+    },
+    {
+      "filepath": "places/countries/Edonia.md",
+      "timestamp": 1760439960330
+    },
+    {
+      "filepath": "gm/Edonia info od GM.md",
+      "timestamp": 1760439960195
+    },
+    {
+      "filepath": "gm/Kalendarium świata info od GM.md",
+      "timestamp": 1760439960046
+    }
+  ],
+  "bookmarkedFileStore": [],
+  "searchDelay": 0,
+  "replaceNewTabs": true,
+  "newTabOnStart": false,
+  "closePreviousSessionTabs": false,
+  "omnisearch": false,
+  "showOmnisearchExcerpt": true
+}

@@ -1,0 +1,1 @@
+Świątynia bogini [[Berit]] w [[Ikelos]]

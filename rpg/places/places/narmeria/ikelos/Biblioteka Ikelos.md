@@ -1,0 +1,1 @@
+Biblioteka położona w [[Ikelos]]

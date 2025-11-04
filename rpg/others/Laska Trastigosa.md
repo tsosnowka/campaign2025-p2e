@@ -1,0 +1,1 @@
+Okazało się, że [[Artefakt Trastigosa]] jest Laska Trastigosa

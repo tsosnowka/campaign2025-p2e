@@ -1,0 +1,4 @@
+[[arcane]]
+[[divine]]
+[[occult]]
+[[primal]]

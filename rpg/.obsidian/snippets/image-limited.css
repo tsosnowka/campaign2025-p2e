@@ -1,0 +1,11 @@
+img.limited_image {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: contain;
+  cursor: zoom-in;
+}
+/*
+<a href="image.jpg">
+  <img src="image.jpg" class="limited_image">
+</a>
+*/

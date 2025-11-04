@@ -1,0 +1,1 @@
+Pół człowiek / pół jakaś inna istota

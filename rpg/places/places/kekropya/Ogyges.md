@@ -1,0 +1,1 @@
+Stolica państwa: [[Kekropya]]

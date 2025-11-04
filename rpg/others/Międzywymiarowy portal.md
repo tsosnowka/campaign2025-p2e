@@ -1,0 +1,1 @@
+[[TODO]] - rozkminić nazwę dla portali, które pojawiają się na świecie + ten z Oklyon

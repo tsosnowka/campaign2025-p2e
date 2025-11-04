@@ -1,0 +1,21 @@
+- 3168 - Upadek [[Ephyrea]], cesarstwo pada pod bardzo szybko postępującą klątwą 
+- 3598 - Wybucha wojna na terenie dzisiejszej [[Tirtalya]]: Lud Denehaerda (potomkowie uciekinierów z [[Ephyrea]] i plemiona z [[Kilikia]]) wypędza królestwa Duromnii, Feniweidn, Bernicii i Demerdhre na północ, poza wyspę. 
+- 3711 - Śmierć króla Torcala i wybuch wojny domowej na Półwyspie. 
+- 3714 - Śmierć Maegala i zakończenie Pierwszej Kampanii 
+- ~3720 - Rozpoczyna się powrót ludności na zniszczone klątwą tereny dawnego [[Ephyrea]]. 
+- 3759 - Edonia - przedarcie się plemion północnych przez granice państwa 
+- 3793 - Inwazja armii ogrów pod wodzą Bikuhra na Edonie - powstrzymana przez ludność Północnej Rubieży 
+- 3798 - Ostateczna Ascendencja(oficjalne zakończenie Czasu Klątwy) 
+- 3811 - Wojna domowa w [[Edonia]](spisek starej szlachty pod przywództwem niejakiego Bolcora - śmierć króla Dearalla - wnuka Jarrella) 
+- 3831 - [[Ligurgia]] - pod wodzą Hypate próbuje odbudować [[Ephyrea]]. [[Narmeria]] i [[Kekropya info od GM]] stawiają jej opór jednocześnie potwierdzając podział na 3 oddzielne państwa. 
+- 3932 -3942 - II Wojna domowa w [[Edonia]] - morderstwo króla Hrurbaefa(syn Bolcora) i wojna między pretendentami(Dekada 4 Władców) - zwycięża Tavuth, generał armii południowej 
+- 3973 - 3981 - Hegias, król [[Ligurgia]] najeżdża [[Kilikia]]. Wojna kończy się przegraną Kilikii i złamaniem siły militarnej państwa. 
+- 3983 - 4020 - seria buntów niewolników w [[Ligurgia]] 
+- 4003 - 4019 - [[Yanthalei]] - pucz Irikiński - śmierć Callaxii i [[Egove]], przejęcie władzy przez [[Thessafer]] i [[Oaraviane]] 
+- 4043 - [[Folvah]] - kapłan [[Trastigos]], zostaje obrany na przywódcę [[Narmeria]] 
+- 4049 - rozpoczyna się konflikt [[Ligurgia]] z istotami zamieszkującymi ruiny stolicy 
+- 4073 - 4075 - wojna [[Tirtalya]] z [[Kilikia]], zakończony podporządkowaniem Kilikii. 
+- 4081 - 4086 - Inwazja [[Ninshubur]] na południową Edonię i jej sojuszników; krasnoludy zdobywają znaczną część terytorium. 
+- 4082 - Miasto-państwo Istankor w [[Kekropya info od GM]] zostaje zrównane z ziemią za pomoc udzieloną [[Ninshubur]]; udział w akcji miały miasta [[Kekropya info od GM]] oraz armie [[Ligurgia]] i [[Narmeria]]. 
+- 4087 - Podpisanie sojuszu obronnego pomiędzy [[Ligurgia]], [[Kekropya info od GM]] i [[Narmeria]] 
+- 4115 - Początek nowej kampanii

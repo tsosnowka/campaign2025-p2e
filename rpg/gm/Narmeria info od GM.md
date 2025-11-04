@@ -1,0 +1,19 @@
+- Informacje ogólne 
+Stosunkowo młode państwo wyspiarskie, składające się z jednej głównej wyspy oraz otaczającego ją wianuszka mniejszych wysepek. Niegdyś część cesarstwa [[Ephyrea]]. Obecnie w sojuszu obronnym z [[Ligurgia]] i [[Kekropya]]. Sojusz jest przede wszystkim wymierzony w agresywne państwo krasnoludów - [[Ninshubur]].
+
+- Stolica
+Ikelos
+
+- Władza
+Narmeria jest państwem teokratycznym. Kapłani [[Trastigos]] wykazali się zmysłem politycznym w momencie zniszczenia klątwy i ascendencji bohatera – od razu rozpoczęli kampanię, której celem było przekonanie mas, że cofnięcie kataklizmu i uwolnienie ziem cesarstwa było zasługą ich bóstwa. Mówi się, że idea na tą propagandę wyszła od samego Trastigosa. Tak czy inaczej kapłani zbierali wokół siebie coraz większą ilość osób powracających na zniszczony wyspy. Powrót dla wielu rodów, często po wielopokoleniowej tułaczce, było doświadczeniem wręcz duchowym. Właśnie na to liczyli duchowni. Kapłani nie próżnowali przez cały ten czas - starali się wszystkim zarządzać, tak aby cały czas być w centrum wydarzeń. Ten wysiłek się opłacił. Dla wielu stało się naturalnym to, że kapłani decydują - skoro to ich bóstwo wywalczyło dla ludu te ziemie. Na czele państwa stoi Arcykapłan Trastigosa. Jest on wybierany przez radę kolegialną kościoła Trastigosa, wraz z przedstawicielami Starej Szlachty - najważniejszych rodów, których korzenie sięgały [[Ephyrea]]. Arcykapłan jest wybierany z duchownych, którzy już urodzili się w Narmerii. Chciano w ten sposób zmniejszyć szansę na zewnętrzną ingerencję – szczególnie ze strony [[Ligurgia]] i [[Kekropya]]. Obecnym Arcykapłanem jest niziołek - [[Folvah]]. Jego rządy cechują stonowane decyzje oraz zachowawcza i ostrożna polityka zagraniczna. Głównie przez te cechy wybrano go na przywódcę już ponad 70 lat temu, gdy państwo potrzebowało spokoju, by móc całość swoich sił skierować na odbudowę. Folvah ma 163 lata - wiek nawet dla niziołków zaawansowany. Jego coraz gorsze samopoczucie budzi dysputy w jakim kierunku powinien ponieść Narmerie jego następca.
+
+- Religia
+Główną religią państwa jest oczywiście wiara w Główny Panteon, a przede wszystkim w Trastigosa. Jednak również inne religie mają silne wpływy w Narmerii. Szczególnie kult [[Horkos]], którego obecność na tych ziemiach sięga czasów [[Ephyrea]].
+
+- Poddani
+Większość Narmeryjczyków stanowią ludzie, niziołki i krasnoludy. Wielu z nich wróciło na wyspy zaraz po zniszczeniu klątwy, jednak niektóre rody do dziś spływają na swoją ojczyznę. Największym bogactwem wysp oraz głównym źródłem ich majątku są kopalnie złota, położone w górach na zachód od Ikelosu. Złoto pozwoliło na stosunkowo szybką odbudowę gospodarki państwa. Obecnie wykorzystywane jest do wzmacniania obronności wysp – głównie przez inwestycje w stocznie i statki. Tak jak pozostałe części upadłej [[Ephyrea]] - Narmeria jest pocięta ruinami dawnej potęgi. To właśnie na tych ruinach wyrastały obecne największe miasta regionu.
+
+- Ostatnie wydarzenia
+Powrót na te ziemie rozpoczął się tuż po zakończeniu [[Czas Klątwy]]. Ludzie wracali na ziemie, z których pochodzili ich pradziadowie. Początkowo wydawało się, że wszystko będzie zmierzało do przywrócenia [[Ephyrea]] na mapy - wyspy powoli się zapełniały, nie było żadnej władzy zwierzchniej, ośrodki organizowały się samoistnie. Aż do momentu, gdy wojowniczy władcy [[Ligurgia]] zapragnęli przejąć władzę nad resztą archipelagu. Doprowadziło to do wojny, w której razem z miastami [[Kekropya]] udało się powstrzymać zakusy agresora. Był to również moment ostatecznej konsolidacji 3 państw w odrębne twory polityczne. Ze względu na agresywny i ciągle rosnący w siłę [[Ninshubur]] oraz ambitną [[Tirtalya]], Narmeria podpisała defensywny sojusz z [[Ligurgia]] i [[Kekropya]] - w razie ataku na jeden z tych 3 krajów pozostałe 2 są zobowiązane do udzielenia niezwłocznej pomocy militarnej.
+
+- Plotki

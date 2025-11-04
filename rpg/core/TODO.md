@@ -1,0 +1,1 @@
+Link do miejsc w których trzeba coś, dopisać, dokończyć, poprawić lub upewnić się czy jest poprawnie.

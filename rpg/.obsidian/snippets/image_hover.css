@@ -1,0 +1,39 @@
+/*
+####_FIRST_SOLUTION
+.popup-image {
+  cursor: zoom-in;
+  transition: transform 0.2s;
+}
+
+.popup-image:active {
+  transform: scale(20);
+  z-index: 999;
+}
+/*
+
+/*
+####_SECOND_SOLUTION
+.markdown-preview-view img {
+  display: block;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+  transition: transform 0.25s ease;
+}
+
+.markdown-preview-view img:hover {
+    -webkit-transform:scale(1.8); 
+    transform:scale(1.2);
+
+body > div.app-container > div.horizontal-main-container > div > div.workspace-split.mod-vertical.mod-root > div.workspace-tabs.mod-active.mod-top > div.workspace-tab-container > div.workspace-leaf.mod-active > div > div.view-content > div.markdown-reading-view > div > div > div.el-embed-image.el-p > p > span > img,
+.img-grid .markdown-preview-section .el-embed-image img:not(.emoji):not([width])  { 
+max-width: 30px !important; 
+
+}  
+
+.image-embed.image-embed img:not([width]) {
+    max-width: 30px !important !important;
+}
+*/
