@@ -1,0 +1,2 @@
+[[Ikelos]]
+Gospoda dla bogaczy

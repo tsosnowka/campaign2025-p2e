@@ -12,7 +12,7 @@ Wiemy, że w mieście byli: [[Zorgak]] i [[Yufistes]]
 [[Imbrius]] - mag poznany w [[Kolegium arkanów]]
 
 [[Keledyr]] gadaliśmy z nim w wieży w [[Kolegium arkanów]]. Opowiedział trochę o [[Ardgar]] . W sprawie [[Laska Trastigosa]] i [[Folvah]] kazał nam nie rozpowiadać tych informacji i mamy się skontaktować z
-magiem Trastigosa [[Melantos]] (zaufany człowiek [[Folvah]]'a). Szanuję prywatność. Powołać się na [[Keledyr]]
+magiem Trastigosa [[Melanthos]] (zaufany człowiek [[Folvah]]'a). Szanuję prywatność. Powołać się na [[Keledyr]]
 
 
 [[Świątynia Berit]] Tu mogła być [[Ignis]] kogoś szuka
@@ -27,7 +27,7 @@ Jakaś istota, się pojawiła i to zrobiła. Prawdopodobnie [[Khoratran]]
 [[Hadwir]] Gnom karczmarz. [[Gospoda - U trzech ław]]
 Info od karczmarza 
 - [[Keles]] stare miasto - gadali o nim [[Zorgak]] i [[Yufistes]] 
-- [[Hidrok]] - pół ork mężczyzna 
+- [[Hidrog]] - pół ork mężczyzna 
 - [[Ifikrates]] - arcykapłan Horkosa
 
 [[Orun]] kapłan krasnolud - gadaliśmy z nim w gospodzie [[Gospoda - U trzech ław]]

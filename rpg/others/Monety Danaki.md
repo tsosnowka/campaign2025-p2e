@@ -1,0 +1,1 @@
+Monety umieszczane wraz ze zmarłymi, w Ikelos. 
