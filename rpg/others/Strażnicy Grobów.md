@@ -1,1 +1,1 @@
-Wyznawcy bogini śmierci [[Aklys]]
+Wyznawcy bogini śmierci [[Aklys Wampir]]

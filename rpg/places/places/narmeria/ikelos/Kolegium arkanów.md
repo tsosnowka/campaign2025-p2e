@@ -1,1 +1,1 @@
-Obszar zrzeszający, magów z miasta [[Ikelos]] . Posiada swoją małą bibliotekę, w której są zawarte informacje powiązane z tematami magii. Poznaliśmy tam maga: [[Imbrius]] oraz [[Keledyr]]
+Obszar zrzeszający, magów z miasta [[Ikelos]] . Posiada swoją małą bibliotekę, w której są zawarte informacje powiązane z tematami magii. Poznaliśmy tam maga: [[Imbrius mag]] oraz [[Keledyr Mag]]

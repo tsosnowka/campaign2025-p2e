@@ -12,14 +12,7 @@
     "inlineHTML": false,
     "exportPath": "C:\\Users\\tomas\\Desktop\\export_test",
     "filesToExport": [
-      "core",
-      "events",
-      "gm",
-      "others",
-      "people",
-      "places",
-      "sessions",
-      "Main.md"
+      "all"
     ],
     "useFallbackRenderer": false,
     "addBodyClasses": true,

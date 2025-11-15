@@ -1,5 +1,5 @@
 1) [[Crafter in the Vault]] (Twórca z Krypty) - mechaniczna sowa (Bubo)
-2) [[Custodian of Groves and Gardens]] (Strażnik Gajów i Ogrodów) - grzybek / sadzonka drzewa ent (Frank)
+2) [[Custodian of Groves and Gardens]] (Strażnik Gajów i Ogrodów) - grzybek / sadzonka drzewa ent ([[Frank]])
 3) [[Echo of Lost Moments]] (Echo Utraconych Chwil) - nietoperz (Echo)
 4) [[Impostor in Hidden Places]] (Oszust z Ukrytych Miejsc) - kotek (Puszek Okruszek?) / kameleon (Rango?)
 5) [[Lurker in Devouring Dark]] (Czyhacz w Pochłaniającej Ciemności) - ośmiornica (Davy?/Dave?) / żaba (?)

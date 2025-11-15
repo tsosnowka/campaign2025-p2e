@@ -6,9 +6,9 @@ Kiedy trafił na ten świat był bardzo osłabiony i został wtedy zapieczętowa
 Tworzył kolizje między światami. 
 
 Ponoć informacje o tym gdzie został zapieczętowany są podzielone na 3 części w stolicach każdego państwa archipelagu czyli:
-1) [[Ikelos]] w [[Narmeria]] (Udali się tam: [[Yufistes]], [[Zorgak]])
-2) [[Ogyges]] w [[Kekropya]] (Udali się tam: [[Irikin]], [[Moraviel]])
-3) [[Pyrrhon]] w [[Ligurgia]] (Udali się tam: [[Orphne]] (+[[Bevrentar]]) i [[Iseos]])
+1) [[Ikelos]] w [[Narmeria]] (Udali się tam: [[Yufistes Niziołek Druid]], [[Zorgak Krasnolud]])
+2) [[Ogyges]] w [[Kekropya]] (Udali się tam: [[Irikin Tryton]], [[Moraviel Elfia Visceromantka]])
+3) [[Pyrrhon]] w [[Ligurgia]] (Udali się tam: [[Orphne]] (+[[Bevrentar Smok]]) i [[Iseos Człowiek]])
 Wiemy, że [[Orphne]] i [[Drużyna Orphne]] podzielili się i zmierzają w każde z tych miejsc
 
 Byt potężniejszy od bogów 
