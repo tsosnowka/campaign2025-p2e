@@ -1,7 +1,7 @@
 [[Orphne]] - główna antagonistka
-- [[Bevrentar]] - miedziany smok należący do Orphne
-[[Iseos]] - człowiek senator
-[[Zorgak]] - krasnal z [[Ninshubur]]
-[[Yufistes]] - niziołek Druid
-[[Moraviel]] - elfka visceromantka
-[[Irikin]] - tryton wojownik
+- [[Bevrentar Smok]] - miedziany smok należący do Orphne
+[[Iseos Człowiek]] - człowiek senator
+[[Zorgak Krasnolud]] - krasnal z [[Ninshubur]]
+[[Yufistes Niziołek Druid]] - niziołek Druid
+[[Moraviel Elfia Visceromantka]] - elfka visceromantka
+[[Irikin Tryton]] - tryton wojownik

@@ -2,5 +2,5 @@ Płeć: [[Mężczyzna]]
 Rasa: [[TODO]]
 Widziany w: [[Ikelos]]
 
-Przepytywany przez [[Zakkar]] w kontekście informacji, na temat zabójstwa arcykapłana [[Ifikrates]].
+Przepytywany przez [[Zakkar]] w kontekście informacji, na temat zabójstwa arcykapłana [[Ifikrates Arcykapłan Horkosa]].
 Skarbnik w glidii mieczników? ([[TODO]] potwierdzić info) 
