@@ -1,0 +1,4 @@
+- Nieumarły
+- Nie powoduje ataków okazyjnych
+- Ma redukcję obrażeń fizycznych oraz leczy otrzymane obrażenia w czasie.
+- Podatny na srebrną broń i zaklęcia.

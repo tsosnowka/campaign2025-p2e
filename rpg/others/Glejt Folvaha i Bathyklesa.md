@@ -1,0 +1,2 @@
+[[Folvah]] [[Bathykles]]
+Posiada: [[Brovur]]
