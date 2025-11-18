@@ -22,17 +22,101 @@
             }
           },
           {
+            "id": "a304785611da317f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "places/places/narmeria/ikelos/Kryjówka Hidroga.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kryjówka Hidroga"
+            }
+          },
+          {
+            "id": "7aa0724d8ed67216",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "places/places/narmeria/ikelos/Portal do Keles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Portal do Keles"
+            }
+          },
+          {
             "id": "ab3ab558cbc25caf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "people/npc/oklyon_npc/Derwen.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Derwen"
+              "title": "index"
+            }
+          },
+          {
+            "id": "a7196c85fa0e45b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "core/creatures/Vampire.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vampire"
+            }
+          },
+          {
+            "id": "8923ef22a462a8ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "others/Glejt Folvaha i Bathyklesa.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Glejt Folvaha i Bathyklesa"
+            }
+          },
+          {
+            "id": "1a1e02d073c175ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "events/Wizja Hope.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Wizja Hope"
+            }
+          },
+          {
+            "id": "a8240aa04cdf64e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "places/places/narmeria/ikelos/Portal do Keles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Portal do Keles"
             }
           }
         ],
@@ -68,7 +152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "akl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "people/npc/oklyon_npc/Derwen.md",
+                "file": "places/places/narmeria/ikelos/Kryjówka Hidroga.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -119,7 +203,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Linki zwrotne do Derwen"
+              "title": "Linki zwrotne do Kryjówka Hidroga"
             }
           },
           {
@@ -184,7 +268,7 @@
       "bases:Stwórz nową bazę danych": false
     }
   },
-  "active": "ab3ab558cbc25caf",
+  "active": "a304785611da317f",
   "lastOpenFiles": [
     "gm/Historia Orphne info od GM.md",
     "places/countries/Edonia.md",
@@ -208,10 +292,12 @@
     "core/gender/Mężczyzna.md",
     "core/gender/Kobieta.md",
     "people/players_team/characters/Hope.md",
-    "people/npc/orphne_team/Iseos Człowiek.md",
-    "people/npc/orphne_team/Moraviel Elfia Visceromantka.md",
-    "people/npc/orphne_team/Yufistes Niziołek Druid.md",
-    "people/npc/orphne_team/Zorgak Krasnolud.md",
+    "core/races/Catfolk.md",
+    "core/races/Dwarf.md",
+    "core/races/Elf.md",
+    "core/races/Half-Elf.md",
+    "Pasted image 20251117195217.png",
+    "src/npc/npc_agetos.png",
     "src/pantheon_aklys.png",
     "src/places",
     "src/player",
@@ -230,8 +316,6 @@
     "rule_book/spells/all_spells/spell2",
     "rule_book/spells/all_spells/spell1",
     "rule_book/spells/all_spells/cantrips",
-    "src/npc/npc_ignis_2.jpg",
-    "src/npc/npc_ignis_1.jpg",
     "Bez nazwy.canvas",
     "core/Bez nazwy.canvas"
   ]
