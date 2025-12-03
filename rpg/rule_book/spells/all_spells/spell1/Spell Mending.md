@@ -10,3 +10,5 @@ You repair the target item. You restore 5 Hit Points per spell rank to the targe
 ___
 - **Heightened (2nd)** You can target a non-magical object of 1 Bulk or less.
 - **Heightened (3rd)** You can target a non-magical object of 2 Bulk or less, or a magical object of 1 Bulk or less.
+___
+https://2e.aonprd.com/Spells.aspx?ID=1597

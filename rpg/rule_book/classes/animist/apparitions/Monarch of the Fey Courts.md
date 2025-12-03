@@ -6,9 +6,9 @@ Monarchs of the fey courts make their homes near places with strong ties to the 
 
 **Apparition Spells:**
 - Cantrip [[Cantrip tangle vine]]
-- 1st [[Spell charm]]
-- 2nd [[Spell create food]]
-- 3rd [[Spell enthrall]]
+- 1st [[Spell Charm]]
+- 2nd [[Spell Create Food]]
+- 3rd [[Spell Enthrall]]
 - 4th [[Spell suggestion]]
 - 5th [[Spell hallucination]]
 - 6th [[Spell dominate]]

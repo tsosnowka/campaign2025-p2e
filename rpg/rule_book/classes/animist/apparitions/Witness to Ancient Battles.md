@@ -6,9 +6,9 @@ Witnesses to ancient battles may be the lingering remnants of soldiers who never
 
 **Apparition Spells:**
 - Cantrip [[Cantrip Shield]]
-- 1st [[Spell sure strike]]
-- 2nd [[Spell enlarge]]
-- 3rd [[Spell ghostly weapon]]
+- 1st [[Spell Sure Strike]]
+- 2nd [[Spell Enlarge]]
+- 3rd [[Spell Ghostly Weapon]]
 - 4th [[Spell weapon storm]]
 - 5th [[Spell invoke spirits]]
 - 6th [[Spell phantasmal calamity]]

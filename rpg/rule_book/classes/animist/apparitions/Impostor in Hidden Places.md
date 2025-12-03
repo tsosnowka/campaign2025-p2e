@@ -6,9 +6,9 @@ Impostors in hidden places whisper in quiet corners where mortal voices rarely r
 
 **Apparition Spells:**
 - Cantrip [[Cantrip telekinetic hand]]
-- 1st [[Spell ill omen]]
-- 2nd [[Spell invisibility]]
-- 3rd [[Spell veil of privacy]]
+- 1st [[Spell Ill Omen]]
+- 2nd [[Spell Invisibility]]
+- 3rd [[Spell Veil Of Privacy]]
 - 4th [[Spell liminal doorway]]
 - 5th [[Spell strange geometry]]
 - 6th [[Spell mislead]]

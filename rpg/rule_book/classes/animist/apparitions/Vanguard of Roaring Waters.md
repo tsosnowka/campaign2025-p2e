@@ -6,9 +6,9 @@ Vanguards of roaring waters are found where rivers carve their way through mount
 
 **Apparition Spells:**
 - Cantrip [[Cantrip rousing splash]]
-- 1st [[Spell hydraulic push]]
-- 2nd [[Spell mist]]
-- 3rd [[Spell crashing wave]]
+- 1st [[Spell Hydraulic Push]]
+- 2nd [[Spell Mist]]
+- 3rd [[Spell Crashing Wave]]
 - 4th [[Spell hydraulic torrent]]
 - 5th [[Spell control water]]
 - 6th [[Spell personal ocean]]

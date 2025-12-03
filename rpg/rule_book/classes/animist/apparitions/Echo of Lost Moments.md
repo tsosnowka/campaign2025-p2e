@@ -6,9 +6,9 @@ Echoes of lost moments are apparitions born from memories that everyone has forg
 
 **Apparition Spells:**
 - Cantrip [[Cantrip figment]]
-- 1st [[Spell déja vu]]
-- 2nd [[Spell dispel magic]]
-- 3rd [[Spell curse of lost time]]
+- 1st [[Spell Déja Vu]]
+- 2nd [[Spell Dispel Magic]]
+- 3rd [[Spell Curse Of Lost Time]]
 - 4th [[Spell vision of death]]
 - 5th [[Spell illusory scene]]
 - 6th [[Spell phantasmal calamity]]

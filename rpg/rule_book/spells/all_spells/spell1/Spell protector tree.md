@@ -11,3 +11,5 @@ A Medium tree suddenly grows in an unoccupied square within range. The tree has 
 If the tree is in soil and survives to the end of the spell's duration, it remains as an ordinary, non-magical tree and continues to grow and thrive. The GM might determine that the tree disappears immediately in certain inhospitable situations.
 ___
 - **Heightened (+1)** The tree has an additional 10 Hit Points.
+___
+https://2e.aonprd.com/Spells.aspx?ID=2015

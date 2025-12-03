@@ -13,3 +13,5 @@ You call forth a powerful blast of pressurized water that bludgeons the target a
 - **Success:** The target takes 3d6 bludgeoning damage and is knocked back 5 feet.
 ___
 - **Heightened (+1)** The bludgeoning damage increases by 2d6.
+___
+https://2e.aonprd.com/Spells.aspx?ID=1561

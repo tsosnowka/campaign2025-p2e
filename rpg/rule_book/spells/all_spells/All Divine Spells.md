@@ -43,12 +43,12 @@
 - [[Spell Calm Emotions]] (enc): Suppress strong emotions and hostility.
 - [[Spell Comprehend Language]] H (div): A creature understands one language.
 - [[Spell Continual Flame]] H (evo): A magical flame burns indefinitely.
-- [[Spell create food]] H (con): Conjure food that can feed multiple creatures.
+- [[Spell Create Food]] H (con): Conjure food that can feed multiple creatures.
 - [[Spell Darkness]] H (evo): Suppress all light in an area.
 - [[Spell Darkvision]] H (div): See in the dark.
 - [[Spell Deafness]] (nec): Make a creature deaf.
 - [[Spell Death Knell]] (nec): Finish off a creature who’s near death.
-- [[Spell dispel magic]] (abj): End a spell or suppress an item’s magic.
+- [[Spell Dispel Magic]] (abj): End a spell or suppress an item’s magic.
 - [[Spell Endure Elements]] H (abj): Protect a creature from severe cold or heat.
 - [[Spell Enhance Victuals]] H (tra): Improve food or drink and remove poisons. 
 - [[Spell Faerie Fire]] (evo): Colorful light prevents creatures from being concealed or invisible
@@ -60,7 +60,7 @@
 - [[Spell Restoration]] H (nec): Reduce a condition or lessen a toxin.
 - [[Spell Restore Senses]] H (nec): Remove a blinding or deafening effect.
 - [[Spell See Invisibility]] H (div): See invisible creatures and objects.
-- [[Spell Shield Other]] (nec): Absorb half the damage an ally would take.
+- [[Spell Shield Other (Legacy)]] (nec): Absorb half the damage an ally would take.
 - [[Spell Silence]] H (ill): Mute all sound from a creature.
 - [[Spell Sound Burst]] H (evo): Damage and deafen creatures with a powerful din.
 - [[Spell Spiritual Weapon]] H (evo): Materialize a deific weapon of force that appears and attacks repeatedly.
