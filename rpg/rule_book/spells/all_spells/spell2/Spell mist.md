@@ -8,3 +8,5 @@
 **Duration:** 1 minute
 ___
 You call forth a cloud of mist. All creatures within the mist become concealed, and all creatures outside the mist become concealed to creatures within it. You can Dismiss the cloud.
+___
+https://2e.aonprd.com/Spells.aspx?ID=1606

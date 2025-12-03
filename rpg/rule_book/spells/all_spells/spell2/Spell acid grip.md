@@ -15,3 +15,5 @@ An ephemeral, taloned hand grips the target, burning it with magical acid. The t
 - **Critical Failure:** The creature takes double damage and full persistent damage, and the claw moves it up to 20 feet in a direction of your choice.  
 ___
 - **Heightened (+2)** The initial damage increases by 2d8, and the persistent acid damage increases by 1d6.
+___
+https://2e.aonprd.com/Spells.aspx?ID=1436

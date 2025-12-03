@@ -11,3 +11,5 @@ Bolstered by magical power, the target grows to size Large. Its equipment grows 
 ___
 - **Heightened (4th)** The creature instead grows to size Huge. The status bonus to melee damage is +4 and the creature's reach increases by 10 feet (or 15 feet if the creature started out Tiny). The spell has no effect on a Huge or larger creature.
 - **Heightened (6th)** Choose either the 2nd-rank or 4th-rank version of this spell and apply its effects to up to 10 willing creatures.
+___
+https://2e.aonprd.com/Spells.aspx?ID=1514

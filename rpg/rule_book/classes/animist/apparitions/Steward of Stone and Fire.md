@@ -6,9 +6,9 @@ Stewards of stone and fire linger near volcanoes and deep places near the heart 
 
 **Apparition Spells:**
 - Cantrip [[Cantrip ignition]]
-- 1st [[Spell interposing earth]]
-- 2nd [[Spell exploding earth]]
-- 3rd [[Spell fireball]]
+- 1st [[Spell Interposing Earth]]
+- 2nd [[Spell Exploding Earth]]
+- 3rd [[Spell Fireball]]
 - 4th [[Spell wall of fire]]
 - 5th [[Spell wall of stone]]
 - 6th [[Spell petrify]]

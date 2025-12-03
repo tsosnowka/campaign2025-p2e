@@ -10,3 +10,5 @@ ___
 - **Heightened (4th)** You can feed 12 Medium creatures.  
 - **Heightened (6th)** You can feed 50 Medium creatures.  
 - **Heightened (8th)** You can feed 200 Medium creatures.
+___
+https://2e.aonprd.com/Spells.aspx?ID=1475

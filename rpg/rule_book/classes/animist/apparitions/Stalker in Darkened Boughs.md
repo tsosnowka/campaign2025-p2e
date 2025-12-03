@@ -6,9 +6,9 @@ Stalkers in darkened boughs make their homes in ancient forests and jungles unfr
 
 **Apparition Spells:**
 - Cantrip [[Cantrip gouging claw]]
-- 1st [[Spell runic body]]
-- 2nd [[Spell vomit swarm]]
-- 3rd [[Spell wall of thorns]]
+- 1st [[Spell Runic Body]]
+- 2nd [[Spell Vomit Swarm]]
+- 3rd [[Spell Wall Of Thorns]]
 - 4th [[Spell bestial curse]]
 - 5th [[Spell moon frenzy]]
 - 6th [[Spell tangling creepers]]

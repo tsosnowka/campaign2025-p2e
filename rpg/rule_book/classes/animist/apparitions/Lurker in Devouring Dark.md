@@ -6,9 +6,9 @@ Lurkers in devouring dark are most often near old shipwrecks, deadly icebergs, a
 
 **Apparition Spells:**
 - Cantrip [[Cantrip caustic blast]]
-- 1st [[Spell grim tendrils]]
-- 2nd [[Spell acid grip]]
-- 3rd [[Spell aqueous orb]]
+- 1st [[Spell Grim Tendrils]]
+- 2nd [[Spell Acid Grip]]
+- 3rd [[Spell Aqueous Orb]]
 - 4th [[Spell grasp of the deep]]
 - 5th [[Spell wall of ice]]
 - 6th [[Spell frost pillar]]

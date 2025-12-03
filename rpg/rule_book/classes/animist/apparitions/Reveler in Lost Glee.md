@@ -6,9 +6,9 @@ Revelers in lost glee are twisted apparitions that arise in desolate and abandon
 
 **Apparition Spells:**
 - Cantrip [[Cantrip Prestidigitation]]
-- 1st [[Spell dizzying colors]]
-- 2nd [[Spell laughing fit]]
-- 3rd [[Spell hypnotize]]
+- 1st [[Spell Dizzying Colors]]
+- 2nd [[Spell Laughing Fit]]
+- 3rd [[Spell Hypnotize]]
 - 4th [[Spell confusion]]
 - 5th [[Spell illusory scene]]
 - 6th [[Spell vibrant pattern]]

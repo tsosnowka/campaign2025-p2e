@@ -13,3 +13,5 @@ The target is struck with misfortune, which throws it off balance. The target mu
 - **Success:** The target is unaffected.
 - **Failure The first time during the duration that the target attempts an attack roll or skill check, it must roll twice and use the worse result.
 - **Critical Failure:** Every time during the duration that the target attempts an attack roll or skill check, it must roll twice and use the worse result.
+___
+https://2e.aonprd.com/Spells.aspx?ID=1566

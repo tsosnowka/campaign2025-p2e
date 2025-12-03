@@ -1,5 +1,8 @@
 {
   "enabledCssSnippets": [
-    "image-limited"
-  ]
+    "image-limited",
+    "checkbox-not-strikethroug"
+  ],
+  "accentColor": "",
+  "theme": "obsidian"
 }

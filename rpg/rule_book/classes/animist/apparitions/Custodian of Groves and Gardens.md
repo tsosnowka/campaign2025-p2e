@@ -6,9 +6,9 @@ Custodians of groves and gardens frequent tended greenery and farmlands cared fo
 
 **Apparition Spells:**
 - Cantrip [[Cantrip tangle vine]]
-- 1st [[Spell protector tree]]
-- 2nd [[Spell gentle breeze]]
-- 3rd [[Spell safe passage]]
+- 1st [[Spell Protector Tree]]
+- 2nd [[Spell Gentle Breeze]]
+- 3rd [[Spell Safe Passage]]
 - 4th [[Spell peaceful bubble]]
 - 5th [[Spell truespeech]]
 - 6th [[Spell field of life]]
