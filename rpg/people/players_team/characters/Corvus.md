@@ -27,19 +27,19 @@ Duchy z miejsca masakry, potrzebują czasu, aby się ustabilizować i skupić w 
 - [x] [[Cantrip Guidance]] - Divine guidance improves one roll.
 - [ ] [[Cantrip Message]] - Speak a message to a distant creature, who can reply.
 
-**Spell_1:** ( current max: 2 )
+**Spell_lvl_1:** ( current max: 2 )
 - [-] [[Spell Heal]] - Positive energy heals the living or harms the undead, either a single creature or all in a burst.
 - [-] [[Spell Bless]] - Strengthen allies’ attacks in an aura around you.
 - [ ] [[Spell Bane]] - Weaken enemies’ attacks in an aura around you.
 - [ ] [[Spell Create Water]] - Conjure 2 gallons of water.
 - [ ] [[Spell Sanctuary]] - Protect a creature from being attacked.
 
-**Spell_2:** ( current max: 2 )
+**Spell_lvl_2:** ( current max: 2 )
 - [x] [[Spell Shield Other (Legacy)]] - Absorb half the damage an ally would take.
 - [ ] [[Spell Continual Flame]] - A magical flame burns indefinitely.
 - [x] [[Spell Create Food]] - Conjure food that can feed multiple creatures.
 
-**Spell_3:** ( current max: 1 )
+**Spell_lvl_3:** ( current max: 1 )
 - [-] [[Spell Heroism]]
 
 ###### Wygląd postaci
