@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b8c501682694dc3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rule_book/spells/all_spells/All Divine Spells.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "All Divine Spells"
-            }
-          },
-          {
             "id": "89dee67fc2b1b266",
             "type": "leaf",
             "state": {
@@ -33,6 +19,20 @@
               },
               "icon": "lucide-file",
               "title": "Spell Spiritual Weapon"
+            }
+          },
+          {
+            "id": "b8c501682694dc3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "people/npc/ikelos_npc/Kapłan Junn.md",
+                "file": "rule_book/spells/all_spells/spell1/Spell Fear.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kapłan Junn"
+              "title": "Spell Fear"
             }
           },
           {
@@ -69,16 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rule_book/spells/all_spells/spell2/Spell Create Food.md",
+                "file": "people/players_team/characters/Brovur.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spell Create Food"
+              "title": "Brovur"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "corv",
+                "query": "illias",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "people/npc/ikelos_npc/Kapłan Junn.md",
+                "file": "index.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Linki zwrotne do Kapłan Junn"
+              "title": "Linki zwrotne do index"
             }
           },
           {
@@ -226,7 +226,7 @@
       "bases:Stwórz nową bazę danych": false
     }
   },
-  "active": "87027921f24ac119",
+  "active": "b4ea3a664b72e394",
   "lastOpenFiles": [
     "gm/Historia Orphne info od GM.md",
     "places/countries/Edonia.md",
@@ -249,11 +249,11 @@
     "people/players_team/characters/Ssnek.md",
     "core/gender/Mężczyzna.md",
     "core/gender/Kobieta.md",
-    "people/players_team/characters/Hope.md",
     "core/races/Catfolk.md",
     "core/races/Dwarf.md",
     "core/races/Elf.md",
     "core/races/Half-Elf.md",
+    "core/races/Half-Orc.md",
     "rule_book/spells/all_spells/spell3/spell3_todo",
     "rule_book/spells/all_spells/spell2/spell2_todo",
     "rule_book/spells/all_spells/spell1/spell1_todo",
