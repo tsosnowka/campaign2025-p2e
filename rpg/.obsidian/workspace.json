@@ -4,81 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "fd65ae32d9c39359",
+        "id": "1615e91077a9bd96",
         "type": "tabs",
         "children": [
           {
-            "id": "89dee67fc2b1b266",
+            "id": "a56b7b3ef073a035",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rule_book/spells/all_spells/spell2/spell2_todo/Spell Spiritual Weapon.md",
+                "file": "sessions/Sesja 2026-02-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spell Spiritual Weapon"
-            }
-          },
-          {
-            "id": "b8c501682694dc3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "b4ea3a664b72e394",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "87027921f24ac119",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rule_book/spells/all_spells/spell1/Spell Fear.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Spell Fear"
-            }
-          },
-          {
-            "id": "b1b3cc0c153c8eb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "people/players_team/characters/Brovur.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Brovur"
+              "title": "Sesja 2026-02-02"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "illias",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Szukaj"
+              "title": "Wyszukiwarka"
             }
           },
           {
@@ -135,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 312.5
   },
   "right": {
     "id": "5f9a3baf5de4ea15",
@@ -151,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "sessions/Sesja 2026-01-12.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -161,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Linki zwrotne do index"
+              "title": "Linki zwrotne do Sesja 2026-01-12"
             }
           },
           {
@@ -199,16 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sessions/Sesja 2025.10.29.md",
+                "file": "sessions/Sesja 2026-02-02.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Konspekt Sesja 2025.10.29"
+              "title": "Konspekt Sesja 2026-02-02"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -216,17 +160,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "graph:Otwórz podgląd grafu": false,
+      "daily-notes:Otwórz dzisiejszy dziennik": false,
       "webpage-html-export:Export as HTML": false,
       "switcher:Otwórz okno szybkiego wyboru": false,
-      "graph:Otwórz graf": false,
       "canvas:Stwórz nową tablicę": false,
-      "daily-notes:Otwórz codzienną notatkę": false,
       "templates:Wstaw szablon": false,
       "command-palette:Otwórz listę poleceń": false,
       "bases:Stwórz nową bazę danych": false
     }
   },
-  "active": "b4ea3a664b72e394",
+  "active": "a56b7b3ef073a035",
   "lastOpenFiles": [
     "gm/Historia Orphne info od GM.md",
     "places/countries/Edonia.md",
@@ -254,6 +198,15 @@
     "core/races/Elf.md",
     "core/races/Half-Elf.md",
     "core/races/Half-Orc.md",
+    "src/creature_1.png",
+    "people/telgwyth",
+    "Bez nazwy.base",
+    "src/places/places_telgwyth.png",
+    "people/npc/telgwyth",
+    "src/pantheon_junn.jpg",
+    "src/pantheon_aquila_1.jpg",
+    "src/ot_yuphistes.jpg",
+    "src/ot_zorgac.jpg",
     "rule_book/spells/all_spells/spell3/spell3_todo",
     "rule_book/spells/all_spells/spell2/spell2_todo",
     "rule_book/spells/all_spells/spell1/spell1_todo",
@@ -264,16 +217,7 @@
     "src/places",
     "src/player",
     "src/npc",
-    "src/core",
     "src/npc/npc_melanthos.png",
-    "src/npc/npc_alethe.png",
-    "src/npc/npc_oforos.png",
-    "src/places/places_ikelos.png",
-    "src/npc/npc_keledyr.jpg",
-    "src/core/action_two.png",
-    "src/npc/npc_ardghar.jpg",
-    "places/places/narmeria/ikelos",
-    "people/npc/ikelos_npc",
     "Bez nazwy.canvas",
     "core/Bez nazwy.canvas"
   ]

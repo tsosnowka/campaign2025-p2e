@@ -1,0 +1,2 @@
+Rasa, powstała na terenie [[Telgwyth - miejsce]], która swoje stworzenie, zawdzięcza pozostałościom mocy po bramie [[Pierwsza cywilizacja]]. oraz dusz, świata Telgwyth.
+Są wrogo nastawieni do współmieszkańców tego świata czyli [[Telgwyth - lud]]

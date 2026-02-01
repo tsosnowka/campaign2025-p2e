@@ -1,4 +1,4 @@
 Oryginalne bóstwa tego świata
-[[Horkos]]
-[[Berit]]
-[[Selvan]]
+- [[Horkos]]
+- [[Berit]]
+- [[Selvan]]

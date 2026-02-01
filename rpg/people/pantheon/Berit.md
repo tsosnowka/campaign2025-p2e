@@ -1,4 +1,4 @@
 Domena: Bogini wiedźm, gęstego lasu i burzy
-Panteon: [[Pierwszy panteon]], [[Obecny panteon]]
+Panteon: [[Pierwszy panteon]], [[Trzeci panteon]]
 
 Czarownica wiedźma

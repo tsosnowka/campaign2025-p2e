@@ -1,0 +1,1 @@
+Medalion kultu [[Selvan]], [[Strażnicy Mavraim]], [[Telgwyth - lud]] //[[TODO]]
