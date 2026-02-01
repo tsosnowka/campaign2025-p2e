@@ -1,13 +1,19 @@
-1. [[Sesja 2025-09-29]]
-2. [[Sesja 2025-10-07]]
-3. [[Sesja 2025-10-15]]
-4. [[Sesja 2025-10-23]]
-5. [[Sesja 2025-10-29]]
-6. [[Sesja 2025-11-05]]
-7. [[Sesja 2025-11-11]]
-8. [[Sesja 2025-11-16]]
-9. [[Sesja 2025-11-16]]
-10. [[Sesja 2025-11-19]]
-11. [[Sesja 2025-12-03]]
-12. [[Sesja 2025-12-10]]
-13. [[Sesja 2025-12-TODO 1]]
+
+```dataviewjs
+dv.list(
+  dv.pages('"sessions"')
+    .where(p => p.file.name.startsWith("Sesja"))
+    .sort(p => p.file.name, 'desc')
+    .map(p => p.file.link)
+);
+```
+
+---
+```
+//alternative version without js //just pure dataview query
+//```dataview
+LIST
+FROM "sessions"
+WHERE startswith(file.name, "Sesja")
+SORT file.name desc
+```

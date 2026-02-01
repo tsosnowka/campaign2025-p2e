@@ -1,7 +1,7 @@
 Domena: Wojny, Ognia i Smoków (Ochrona ludzi)
 Płeć: [[Kobieta]]
 Rasa: [[Half-Orc]]
-Panteon: [[Obecny panteon]]
+Panteon: [[Trzeci panteon]]
 
 Założycielka [[Zakon Beithira]]
 

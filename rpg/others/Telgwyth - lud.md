@@ -1,0 +1,2 @@
+Rasa, powstała na terenie [[Telgwyth - miejsce]], która swoje stworzenie, zawdzięcza artefaktom pozostawionym przez [[Selvan]]'a, oraz dusz świata Telgwyth.
+Są wrogo nastawieni do współmieszkańców tego świata czyli [[Bystfil]]

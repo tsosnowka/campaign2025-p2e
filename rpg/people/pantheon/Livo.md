@@ -1,3 +1,3 @@
 Domena: Bóstwo nauki, opiekun alchemików
 Płeć: [[Mężczyzna]]
-Pantheon: [[Obecny panteon]]
+Pantheon: [[Trzeci panteon]]

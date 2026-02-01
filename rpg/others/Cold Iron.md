@@ -1,1 +1,5 @@
 Zimne, żelazo. Przedmioty pokryte tym materiałem, są skuteczne przeciwko istotom z innych planów
+
+Podatni na Cold Iron:
+- [[Telgwyth - lud]]
+- [[Bystfil]]
