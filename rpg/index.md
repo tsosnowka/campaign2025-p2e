@@ -1,7 +1,7 @@
 ```dataviewjs
 let pages = dv.pages("").where(p => p.file && p.file.mtime);
 let last = pages.sort(p => p.file.mtime, 'desc')[0];
-dv.paragraph("Ostatnio zmodyfikowany plik: " + last.file.link);
+//dv.paragraph("Ostatnio zmodyfikowany plik: " + last.file.link);
 dv.paragraph("Data ostatniej modyfikacji: " + last.file.mtime.toFormat("yyyy-LL-dd HH:mm"));
 ```
 ---
