@@ -2,4 +2,4 @@ Zimne, żelazo. Przedmioty pokryte tym materiałem, są skuteczne przeciwko isto
 
 Podatni na Cold Iron:
 - [[Telgwyth - lud]]
-- [[Bystfil]]
+- [[others/Bystfil]]

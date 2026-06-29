@@ -1,7 +1,7 @@
 Postaci:
-Kuba K - [[Brovur]] - Champion - Krasnolud
+Kuba K - [[Brovur]] (Nie żyje) - Champion - Krasnolud | [[Minthara]] - Fighter - Pół-Elf
 Mati - [[Ssnek]] - Ranger - Czarny Kobold (pet: [[Kobyłka]] - zielony smok)
-Krzysiek - [[Illias Korassinos]] - Sorcerer - Człowiek
+Krzysiek - [[Illias]] - Sorcerer - Człowiek
 Basia - [[Hope]] - Champion - Pół-Elf
 Kuba T - [[Zakkar]] - Rogue - Catfolk
 Tomek - [[Corvus]] - Animist - Pół-Ork
@@ -12,4 +12,4 @@ Posiadane przedmioty:
 
 - wspólne:
 1. [[Glejt z Oklyon]] - posiada [[Brovur]]
-2. [[Mundur zakonu Trastigosa]] - posiadają po jednej sztuce: [[Corvus]], [[Illias Korassinos]], [[Hope]], [[Zakkar]]
+2. [[Mundur zakonu Trastigosa]] - posiadają po jednej sztuce: [[Corvus]], [[Illias]], [[Hope]], [[Zakkar]]
