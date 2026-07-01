@@ -1,0 +1,437 @@
+<!DOCTYPE html> <html lang="pl"><head>
+<title>Sesja 2026-02-25</title>
+<base href="..">
+<meta name="pathname" content="sessions/sesja-2026-02-25.html">
+<meta name="description" content="rpg - Sesja 2026-02-25">
+<meta property="og:title" content="Sesja 2026-02-25">
+<meta property="og:description" content="rpg - Sesja 2026-02-25">
+<meta property="og:type" content="website">
+<meta property="og:url" content="sessions/sesja-2026-02-25.html">
+<meta property="og:image" content="undefined">
+<meta charset="UTF-8"><meta property="og:site_name" content="rpg"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="site-lib/rss.xml"><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="site-lib/media/favicon.png"><link rel="preload" href="site-lib/styles/snippets.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/snippets.css"></noscript><link rel="stylesheet" href="site-lib/styles/obsidian.css"><link rel="preload" href="site-lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/other-plugins.css"></noscript><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px}:root{background-color:#202124}.sidebar{height:100%;font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}#right-sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:calc(2.3em + 2 * var(--sidebar-margin));width:var(--sidebar-width);padding:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row;border-top-right-radius:var(--radius-l)}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse;border-top-left-radius:var(--radius-l)}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.feature-title{margin-left:1px;text-transform:uppercase;letter-spacing:.06em;margin-top:.75em;margin-bottom:.75em}.feature-header{display:flex;align-items:center;padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#navbar:not(:empty){display:flex;align-items:center;justify-content:space-between;padding:.5em 1em;width:100%}#main{display:flex;flex-direction:column;height:100%;width:100%;align-items:stretch;justify-content:center}#main-horizontal{display:flex;flex-direction:row;flex-grow:1;width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6,li):has(> :is(.math,table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const n=await fetch(e);if(!n.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await n.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let n=document.createRange().createContextualFragment(o);t.before(n),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(n){let l=o[n],c=n+1;l?(l&&"true"!=l.getAttribute("loaded")||n<o.length&&e(c),n<o.length&&l.addEventListener("load",(()=>e(c)))):n<o.length?e(c):t()}(0)}</script></head><body class="publish css-settings-manager styled-scrollbars show-inline-title show-ribbon is-focused"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="parsed-feature-container" style="display: contents;"><link itemprop="include" href="site-lib/html/custom-head-content-content.html"></div><div id="main"><div id="navbar"></div><div id="main-horizontal"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"><div id="left-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><div id="search-container"><div id="search-wrapper"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div aria-label="Clear search" id="search-clear-button"></div></div></div></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="left-sidebar-content" class="leaf-content"><link itemprop="include" href="site-lib/html/file-tree-content.html"></div></div><script defer="">let ls = document.querySelector("#left-sidebar"); ls.classList.toggle("is-collapsed", window.innerWidth < 768); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div></div><div id="center-content" class="leaf"><div class="obsidian-document markdown-preview-view markdown-rendered node-insert-event is-readable-line-width allow-fold-headings allow-fold-lists show-indentation-guide show-properties" data-type="markdown"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><div class="header"><h1 class="page-title heading inline-title" id="Sesja_2026-02-25_0">Sesja 2026-02-25</h1><div class="data-bar"></div></div><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-p"><p dir="auto">Poprzednia sesja: <a data-href="Sesja 2026-02-21" href="sessions/sesja-2026-02-21.html" class="internal-link" target="_self" rel="noopener nofollow">Sesja 2026-02-21</a><br>
+Następna sesja: <a data-href="Sesja 2026-03-02" href="sessions/sesja-2026-03-02.html" class="internal-link" target="_self" rel="noopener nofollow">Sesja 2026-03-02</a></p></div><div class="el-hr"><hr></div><div class="el-h1"><h1 data-heading="Skrót sesji (na podstawie transkrypcji)" dir="auto" class="heading" id="Skrót_sesji_(na_podstawie_transkrypcji)_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Skrót sesji (na podstawie transkrypcji)</h1></div><div class="el-h2"><h2 data-heading="TL;DR" dir="auto" class="heading" id="TL;DR_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>TL;DR</h2></div><div class="el-p"><p dir="auto">Drużyna idzie na północ i dociera do wioski <strong>Echlin</strong>, która jest wyraźnie „zwinięta” i ufortyfikowana (palisada, wieża, uzbrojeni strażnicy), a kapliczka Trastigosa jest zbezczeszczona i zniszczona. W karczmie i u felczerki <strong><a data-href="Mor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mor</a></strong> wychodzi, że po okolicy kręcą się zmutowane/chorobowe zwierzęta i ludzie mają rany, które się nie goją. Próba „magicznej pomocy” jednemu z rannych kończy się katastrofą (chłop umiera po negatywnej mocy), a drużyna musi ugasić panikę i opłacić pochówek. Następnego dnia marsz dalej na północ, a nocą atakuje was zakażony dzik — walka jest brutalna i potwierdza, że „choroba/korupcja” realnie już tu działa.</p></div><div class="el-hr"><hr></div><div class="el-h2"><h2 data-heading="Co się wydarzyło (po kolei)" dir="auto" class="heading" id="Co_się_wydarzyło_(po_kolei)_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Co się wydarzyło (po kolei)</h2></div><div class="el-h3"><h3 data-heading="1) Droga i pierwsze niepokojące znaki" dir="auto" class="heading" id="1)_Droga_i_pierwsze_niepokojące_znaki_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>1) Droga i pierwsze niepokojące znaki</h3></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>Marsz na północ jest spokojny, aż <a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> rozpoznaje, że zbliżacie się do pierwszej znanej mu wioski: <strong>Echlin</strong>.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>Widać dużą zmianę: wioska jest <strong>zmniejszona</strong>, otoczona <strong>palisadą</strong>, ma <strong>wieżę i wrota</strong>, a teren dawnych zabudowań wygląda jak porzucone kopce.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>Przy podejściu widać zniszczoną kapliczkę/stellę Trastigosa: roztrzaskana i oblana czymś czerwonym.</li>
+</ul></div><div class="el-h3"><h3 data-heading="2) Wejście do Echlin" dir="auto" class="heading" id="2)_Wejście_do_Echlin_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>2) Wejście do Echlin</h3></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>Straż z wieży alarmuje dzwonkiem i mierzy do was z łuku; po identyfikacji (<a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> + znajomość z wójtem <strong><a data-href="Torkan" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Torkan</a>em</strong>) wpuszczają was do środka.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>Zwraca uwagę „wojskowy” ekwipunek wieśniaków (kolczugi, hełmy), a sama wioska wygląda na <strong>wyludnioną</strong> — ludzie się chowają.</li>
+</ul></div><div class="el-h3"><h3 data-heading="3) Karczma: plotki o „chorobie z północy”" dir="auto" class="heading" id="3)_Karczma_plotki_o_„chorobie_z_północy”_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>3) Karczma: plotki o „chorobie z północy”</h3></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>W karczmie słyszycie, że:
+<ul class="has-list-bullet">
+<li data-line="1" dir="auto"><span class="list-bullet"></span>z lasów wychodzą różne potwory/zwierzęta,</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>„dziczyzny się nie je”, bo bywa chora,</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>pojawiają się rany, które <strong>jątrzą się</strong> i nie chcą się goić,</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span>źródło problemów kojarzone jest ogólnie z <strong>północą</strong>.</li>
+</ul>
+</li>
+</ul></div><div class="el-h3"><h3 data-heading="4) Felczerka [[Mor]] i „rana, która rośnie”" dir="auto" class="heading" id="4)_Felczerka_[[Mor]]_i_„rana,_która_rośnie”_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>4) Felczerka <a data-href="Mor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mor</a> i „rana, która rośnie”</h3></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>Idziecie do felczerki <strong><a data-href="Mor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mor</a></strong> (chatka pełna ziół, ostre zapachy, robi mikstury leczenia).</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span><a data-href="Mor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mor</a> opisuje przypadki: rany nie zasklepiają się, „rozrastają”, cuchną, czasem idą głęboko.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>Kupujecie od niej kilka <strong>mikstur leczenia</strong> (targowanie, zaliczka na kolejne).</li>
+</ul></div><div class="el-h3"><h3 data-heading="5) Pacjent i katastrofa „leczenia”" dir="auto" class="heading" id="5)_Pacjent_i_katastrofa_„leczenia”_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>5) Pacjent i katastrofa „leczenia”</h3></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><a data-href="Mor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mor</a> prowadzi was do młodego faceta z potwornie spuchniętą, pękającą ręką; wygląda to jak zakażenie/pasożyt/grzyb/robactwo.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>Pada pomysł leczenia magią — w praktyce ktoś odpala negatywną moc (w rozmowie przewija się <strong>touch of corruption</strong>) i chłop <strong>umiera na miejscu</strong>, ciało gwałtownie czernieje/psuje się.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>Drużyna uspokaja <a data-href="Mor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mor</a> i sytuację (żeby nie biła na alarm), a finalnie płacicie za <strong>pochówek</strong> i robicie krótki pogrzeb poza palisadą.</li>
+</ul></div><div class="el-h3"><h3 data-heading="6) Nowy trop: „Matka Czerwi”" dir="auto" class="heading" id="6)_Nowy_trop_„Matka_Czerwi”_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>6) Nowy trop: „Matka Czerwi”</h3></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>Po całej akcji wraca plotka/lokalna nazwa źródła problemu: <strong>„Matka Czerwi”</strong> — coś związanego z robactwem/chorobą.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>Pojawia się też wątek, że na północy byli kiedyś zakonnicy/rycerze i że ich miejsce mogło zostać „zajęte”.</li>
+</ul></div><div class="el-h3"><h3 data-heading="7) W drogę i nocna walka z zakażonym dzikiem" dir="auto" class="heading" id="7)_W_drogę_i_nocna_walka_z_zakażonym_dzikiem_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>7) W drogę i nocna walka z zakażonym dzikiem</h3></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>Następnego dnia idziecie dalej — w lesie na oko „normalnie”, bez oczywistych znaków korupcji na drzewach.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>Nocą na warcie zauważacie <strong>duże stworzenie</strong>; okazuje się zakażonym dzikiem (ropień zamiast oka, naloty na ciosach).</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>W walce dzik potrafi uderzyć bardzo mocno (padło m.in. bardzo wysokie obrażenie na jednym z was).</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>Po walce/oględzinach znajduje się <strong>ślad po strzale</strong> i <strong>ułamany grot</strong> w ranie — sugeruje to, że zakażenie mogło wejść przez ranę.</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-h2"><h2 data-heading="Najważniejsze ustalenia / wnioski" dir="auto" class="heading" id="Najważniejsze_ustalenia_/_wnioski_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Najważniejsze ustalenia / wnioski</h2></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>Echlin jest w trybie oblężenia: obrona, strach, izolacja.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>Zjawisko „niegojących się ran” i mutacji dotyczy ludzi i zwierząt; źródło wiązane jest z północą.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><strong>„Matka Czerwi”</strong> to kluczowy lead fabularny.</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>Zakażenie może być przenoszone przez urazy (przykład dzika z grotem).</li>
+</ul></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto">v2</p></div><div class="el-hr"><hr></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>tl;dr:</strong></p>
+<ul class="has-list-bullet">
+<li data-line="1" dir="auto"><span class="list-bullet"></span>Drużyna dociera do wioski Echlin, która z dawniej otwartej osady zmieniła się w ufortyfikowaną, zastraszoną i niemal oblężoną osadę.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>Mieszkańcy opowiadają o zmutowanych, chorych bestiach wychodzących z północy oraz o paskudnych ranach, które nie chcą się goić.</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>Bohaterowie badają przypadek chorego mieszkańca; próba „leczenia” kończy się jego natychmiastową śmiercią.</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span>Pojawia się trop „Matki Czerwi” i sugestia, że źródło plagi może mieć związek z dawnymi działaniami Zakonu Beithira oraz okolicami twierdzy.</li>
+<li data-line="5" dir="auto"><span class="list-bullet"></span>W dalszej drodze drużyna zabija zainfekowanego dzika, znajduje w nim grot strzały powiązany z Zakonem Beithira i odkrywa opuszczoną osadę z tunelem, symbolem dawnego kultu oraz zainfekowanymi ludźmi ukrywającymi się pod ziemią.</li>
+</ul>
+</li>
+<li data-line="7" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Podróż na północ</strong></p>
+<ul class="has-list-bullet">
+<li data-line="8" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Droga na północ jest zaskakująco spokojna i wręcz relaksująca:
+<ul class="has-list-bullet">
+<li data-line="9" dir="auto"><span class="list-bullet"></span>dobra pogoda,</li>
+<li data-line="10" dir="auto"><span class="list-bullet"></span>brak silnego wiatru,</li>
+<li data-line="11" dir="auto"><span class="list-bullet"></span>dostęp do wody,</li>
+<li data-line="12" dir="auto"><span class="list-bullet"></span>brak bezpośrednich zagrożeń po drodze.</li>
+</ul>
+</li>
+<li data-line="13" dir="auto"><span class="list-bullet"></span><a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> prowadzi drużynę do pierwszej znanej mu osady na tej trasie: <strong>Echlin</strong>.</li>
+</ul>
+</li>
+<li data-line="15" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Echlin – dawna wioska, nowa twierdza</strong></p>
+<ul class="has-list-bullet">
+<li data-line="16" dir="auto"><span class="list-bullet"></span><a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> pamięta Echlin jako rozległą, raczej bezpieczną i nieumocnioną wioskę.</li>
+<li data-line="17" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Na miejscu okazuje się, że zaszły duże zmiany:
+<ul class="has-list-bullet">
+<li data-line="18" dir="auto"><span class="list-bullet"></span>postawiono grubą palisadę,</li>
+<li data-line="19" dir="auto"><span class="list-bullet"></span>są wielkie drewniane wrota,</li>
+<li data-line="20" dir="auto"><span class="list-bullet"></span>jest wieża strażnicza,</li>
+<li data-line="21" dir="auto"><span class="list-bullet"></span>większość dawnej zabudowy poza obecnym obwodem zniknęła.</li>
+</ul>
+</li>
+<li data-line="22" dir="auto"><span class="list-bullet"></span>Widać wyraźnie, że mieszkańcy „zwinęli się” do mniejszego, łatwiejszego do obrony obszaru.</li>
+<li data-line="23" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Przy wejściu <a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> zauważa zniszczoną kapliczkę Trastigosa:
+<ul class="has-list-bullet">
+<li data-line="24" dir="auto"><span class="list-bullet"></span>rozbitą,</li>
+<li data-line="25" dir="auto"><span class="list-bullet"></span>popękaną,</li>
+<li data-line="26" dir="auto"><span class="list-bullet"></span>oblaną czerwienią.</li>
+</ul>
+</li>
+<li data-line="27" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Drużyna rozważa możliwe przyczyny:
+<ul class="has-list-bullet">
+<li data-line="28" dir="auto"><span class="list-bullet"></span>utrata zaufania do Trastigosa,</li>
+<li data-line="29" dir="auto"><span class="list-bullet"></span>działalność innego kultu,</li>
+<li data-line="30" dir="auto"><span class="list-bullet"></span>zniszczenie przez agresorów.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="32" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Wejście do Echlin</strong></p>
+<ul class="has-list-bullet">
+<li data-line="33" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Strażnicy są nerwowi i dobrze uzbrojeni jak na wieś:
+<ul class="has-list-bullet">
+<li data-line="34" dir="auto"><span class="list-bullet"></span>łuki,</li>
+<li data-line="35" dir="auto"><span class="list-bullet"></span>włócznie,</li>
+<li data-line="36" dir="auto"><span class="list-bullet"></span>kolczugi,</li>
+<li data-line="37" dir="auto"><span class="list-bullet"></span>częściowo pancerze i hełmy.</li>
+</ul>
+</li>
+<li data-line="38" dir="auto"><span class="list-bullet"></span><a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> przedstawia się jako dawny członek Zakonu Beithira i pyta o wójta <a data-href="Torkan" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Torkan</a>a.</li>
+<li data-line="39" dir="auto"><span class="list-bullet"></span>To wystarcza, by wpuszczono drużynę do środka.</li>
+<li data-line="40" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Wioska sprawia wrażenie opustoszałej:
+<ul class="has-list-bullet">
+<li data-line="41" dir="auto"><span class="list-bullet"></span>mieszkańcy chowają się,</li>
+<li data-line="42" dir="auto"><span class="list-bullet"></span>unikają kontaktu,</li>
+<li data-line="43" dir="auto"><span class="list-bullet"></span>zamykają okiennice na widok obcych.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="45" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Karczma i pierwsze informacje o zagrożeniu</strong></p>
+<ul class="has-list-bullet">
+<li data-line="46" dir="auto"><span class="list-bullet"></span>Drużyna trafia do bardzo skromnej karczmy prowadzonej przez kobietę.</li>
+<li data-line="47" dir="auto"><span class="list-bullet"></span>Dowiadują się, że od czasu odejścia Zakonu Beithira okolica stała się niebezpieczna.</li>
+<li data-line="48" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Z północy wychodzą różne stwory:
+<ul class="has-list-bullet">
+<li data-line="49" dir="auto"><span class="list-bullet"></span>wilki,</li>
+<li data-line="50" dir="auto"><span class="list-bullet"></span>zmutowane bestie,</li>
+<li data-line="51" dir="auto"><span class="list-bullet"></span>„wężowce”,</li>
+<li data-line="52" dir="auto"><span class="list-bullet"></span>biesy,</li>
+<li data-line="53" dir="auto"><span class="list-bullet"></span>inne dziwne, kosmate lub zniekształcone potwory.</li>
+</ul>
+</li>
+<li data-line="54" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Problem nie dotyczy wyłącznie zwierząt:
+<ul class="has-list-bullet">
+<li data-line="55" dir="auto"><span class="list-bullet"></span>część stworzeń wygląda na chorobliwie zmienione,</li>
+<li data-line="56" dir="auto"><span class="list-bullet"></span>sierść im wypada,</li>
+<li data-line="57" dir="auto"><span class="list-bullet"></span>mają narośla lub grzyby,</li>
+<li data-line="58" dir="auto"><span class="list-bullet"></span>zachowują się nienaturalnie agresywnie i bezładnie.</li>
+</ul>
+</li>
+<li data-line="59" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Felczerka z wioski twierdzi też, że podobne paskudne zmiany pojawiają się u ludzi:
+<ul class="has-list-bullet">
+<li data-line="60" dir="auto"><span class="list-bullet"></span>rany źle się goją,</li>
+<li data-line="61" dir="auto"><span class="list-bullet"></span>jątrzą się,</li>
+<li data-line="62" dir="auto"><span class="list-bullet"></span>rozrastają się zamiast zabliźniać.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="64" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Felczerka <a data-href="Mor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mor</a></strong></p>
+<ul class="has-list-bullet">
+<li data-line="65" dir="auto"><span class="list-bullet"></span>Drużyna idzie do felczerki imieniem <strong><a data-href="Mor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mor</a></strong>, mieszkającej przy północnej bramie.</li>
+<li data-line="66" dir="auto"><span class="list-bullet"></span>Jej dom jest pełen ziół i półproduktów do wyrobu eliksirów leczniczych.</li>
+<li data-line="67" dir="auto"><span class="list-bullet"></span><a data-href="Zakkar" href="people/players_team/characters/zakkar.html" class="internal-link" target="_self" rel="noopener nofollow">Zakkar</a> rozpoznaje, że <a data-href="Mor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mor</a> przygotowuje prawdziwe mikstury lecznicze, i drużyna kupuje od niej zapas.</li>
+<li data-line="68" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span><a data-href="Mor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mor</a> opowiada o pacjencie, który wrócił z północy z raną po wypadku na polowaniu:
+<ul class="has-list-bullet">
+<li data-line="69" dir="auto"><span class="list-bullet"></span>rana nie goi się od tygodni,</li>
+<li data-line="70" dir="auto"><span class="list-bullet"></span>śmierdzi,</li>
+<li data-line="71" dir="auto"><span class="list-bullet"></span>rozrasta się,</li>
+<li data-line="72" dir="auto"><span class="list-bullet"></span>wygląda coraz gorzej.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="74" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Chory mieszkaniec</strong></p>
+<ul class="has-list-bullet">
+<li data-line="75" dir="auto"><span class="list-bullet"></span>Drużyna ogląda rannego młodego mężczyznę.</li>
+<li data-line="76" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Objawy:
+<ul class="has-list-bullet">
+<li data-line="77" dir="auto"><span class="list-bullet"></span>skrajne wycieńczenie,</li>
+<li data-line="78" dir="auto"><span class="list-bullet"></span>przekrwione oczy,</li>
+<li data-line="79" dir="auto"><span class="list-bullet"></span>ogromnie spuchnięta ręka,</li>
+<li data-line="80" dir="auto"><span class="list-bullet"></span>pęknięta skóra,</li>
+<li data-line="81" dir="auto"><span class="list-bullet"></span>żółta, skrystalizowana ropa,</li>
+<li data-line="82" dir="auto"><span class="list-bullet"></span>wygląd infekcji/pasożyta/grzyba/magicznego skażenia.</li>
+</ul>
+</li>
+<li data-line="83" dir="auto"><span class="list-bullet"></span>Detect Magic potwierdza obecność magii w ranie.</li>
+<li data-line="84" dir="auto"><span class="list-bullet"></span>Bohaterowie podejrzewają, że to nie zwykła rana, lecz coś związanego z plagą/klątwą.</li>
+</ul>
+</li>
+<li data-line="86" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Katastrofa podczas „leczenia”</strong></p>
+<ul class="has-list-bullet">
+<li data-line="87" dir="auto"><span class="list-bullet"></span>Dochodzi do próby pomocy rannemu przy użyciu mocy czempiona.</li>
+<li data-line="88" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Efekt jest odwrotny od zamierzonego:
+<ul class="has-list-bullet">
+<li data-line="89" dir="auto"><span class="list-bullet"></span>magia działa destrukcyjnie,</li>
+<li data-line="90" dir="auto"><span class="list-bullet"></span>ciało chorego gwałtownie czernieje i ulega nekrotycznej degradacji,</li>
+<li data-line="91" dir="auto"><span class="list-bullet"></span>mężczyzna umiera natychmiast.</li>
+</ul>
+</li>
+<li data-line="92" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Drużyna improwizuje wyjaśnienie, że:
+<ul class="has-list-bullet">
+<li data-line="93" dir="auto"><span class="list-bullet"></span>działa tu wyjątkowo silna klątwa,</li>
+<li data-line="94" dir="auto"><span class="list-bullet"></span>święta magia weszła w konflikt z chorobą/zepsuciem,</li>
+<li data-line="95" dir="auto"><span class="list-bullet"></span>organizm pacjenta był już zbyt wyniszczony.</li>
+</ul>
+</li>
+<li data-line="96" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Udaje się załagodzić sytuację:
+<ul class="has-list-bullet">
+<li data-line="97" dir="auto"><span class="list-bullet"></span><a data-href="Mor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mor</a> przyjmuje pieniądze na pogrzeb,</li>
+<li data-line="98" dir="auto"><span class="list-bullet"></span>drużyna pomaga zorganizować pochówek,</li>
+<li data-line="99" dir="auto"><span class="list-bullet"></span><a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> odprawia zmarłego.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="101" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Pierwszy ważny trop: „Matka Czerwi”</strong></p>
+<ul class="has-list-bullet">
+<li data-line="102" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Po pogrzebie <a data-href="Mor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mor</a> wspomina wiejskie opowieści:
+<ul class="has-list-bullet">
+<li data-line="103" dir="auto"><span class="list-bullet"></span>kiedyś dalej na północy byli rycerze / zakonnicy Zakonu Beithira,</li>
+<li data-line="104" dir="auto"><span class="list-bullet"></span>po ich odejściu lub upadku miała pojawić się <strong>Matka Czerwi</strong>,</li>
+<li data-line="105" dir="auto"><span class="list-bullet"></span>z nią ludzie wiążą robactwo, plagę i skażenie.</li>
+</ul>
+</li>
+<li data-line="106" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Drużyna analizuje tę nazwę:
+<ul class="has-list-bullet">
+<li data-line="107" dir="auto"><span class="list-bullet"></span>to raczej lokalne określenie, nie powszechnie znany byt,</li>
+<li data-line="108" dir="auto"><span class="list-bullet"></span>może chodzić o aberrację, demona, zmutowane robactwo lub coś zamkniętego/obudzonego przy twierdzy.</li>
+</ul>
+</li>
+<li data-line="109" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span><a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> przypomina sobie plotki i wiedzę zakonną:
+<ul class="has-list-bullet">
+<li data-line="110" dir="auto"><span class="list-bullet"></span>Zakon badał różne istoty związane z robactwem,</li>
+<li data-line="111" dir="auto"><span class="list-bullet"></span>możliwe są powiązania z kultami lub stworzeniami tworzonymi z rojów,</li>
+<li data-line="112" dir="auto"><span class="list-bullet"></span>źródło problemu najpewniej jest związane z twierdzą i dawną działalnością zakonu.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="114" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Nocleg w Echlin</strong></p>
+<ul class="has-list-bullet">
+<li data-line="115" dir="auto"><span class="list-bullet"></span>Drużyna nocuje w karczmie.</li>
+<li data-line="116" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span><a data-href="Zakkar" href="people/players_team/characters/zakkar.html" class="internal-link" target="_self" rel="noopener nofollow">Zakkar</a> naciska, by spróbować porozmawiać z duszą zmarłego, ale <a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> odmawia:
+<ul class="has-list-bullet">
+<li data-line="117" dir="auto"><span class="list-bullet"></span>obawia się skutków,</li>
+<li data-line="118" dir="auto"><span class="list-bullet"></span>nie chce wzbudzić dodatkowego strachu,</li>
+<li data-line="119" dir="auto"><span class="list-bullet"></span>uważa, że emocje świeżo zmarłego mogłyby tylko pogorszyć sytuację.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="121" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Dalsza droga na północ</strong></p>
+<ul class="has-list-bullet">
+<li data-line="122" dir="auto"><span class="list-bullet"></span>Następnego dnia drużyna rusza dalej.</li>
+<li data-line="123" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Las staje się dzikszy:
+<ul class="has-list-bullet">
+<li data-line="124" dir="auto"><span class="list-bullet"></span>ścieżka zarasta,</li>
+<li data-line="125" dir="auto"><span class="list-bullet"></span>widać coraz mniej śladów cywilizacji,</li>
+<li data-line="126" dir="auto"><span class="list-bullet"></span>ale sama roślinność nie wygląda jeszcze jednoznacznie na skażoną.</li>
+</ul>
+</li>
+<li data-line="127" dir="auto"><span class="list-bullet"></span>Podczas nocnego postoju <a data-href="Zakkar" href="people/players_team/characters/zakkar.html" class="internal-link" target="_self" rel="noopener nofollow">Zakkar</a> dostrzega duże stworzenie skradające się do obozu.</li>
+</ul>
+</li>
+<li data-line="129" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Walka ze zmutowanym dzikiem</strong></p>
+<ul class="has-list-bullet">
+<li data-line="130" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Okazuje się, że to zakażony dzik:
+<ul class="has-list-bullet">
+<li data-line="131" dir="auto"><span class="list-bullet"></span>z ropiejącym okiem,</li>
+<li data-line="132" dir="auto"><span class="list-bullet"></span>zdeformowanymi ciosami,</li>
+<li data-line="133" dir="auto"><span class="list-bullet"></span>wypadającą sierścią,</li>
+<li data-line="134" dir="auto"><span class="list-bullet"></span>silnym odorem zgnilizny.</li>
+</ul>
+</li>
+<li data-line="135" dir="auto"><span class="list-bullet"></span>Dzik atakuje drużynę.</li>
+<li data-line="136" dir="auto"><span class="list-bullet"></span><a data-href="Brovur" href="people/players_team/characters/brovur.html" class="internal-link" target="_self" rel="noopener nofollow">Brovur</a> obrywa, ale dzięki odporności i wytrzymałości nie ulega skażeniu.</li>
+<li data-line="137" dir="auto"><span class="list-bullet"></span><a data-href="Zakkar" href="people/players_team/characters/zakkar.html" class="internal-link" target="_self" rel="noopener nofollow">Zakkar</a> bardzo skutecznie rani bestię i ostatecznie ją zabija.</li>
+<li data-line="138" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Ciało dzika:
+<ul class="has-list-bullet">
+<li data-line="139" dir="auto"><span class="list-bullet"></span>cuchnie jeszcze gorzej po rozcięciu,</li>
+<li data-line="140" dir="auto"><span class="list-bullet"></span>ma oznaki głębokiej, nienaturalnej przemiany,</li>
+<li data-line="141" dir="auto"><span class="list-bullet"></span>zawiera dodatkowy narząd rozprowadzający skażenie po organizmie.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="143" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Grot strzały i kolejny trop</strong></p>
+<ul class="has-list-bullet">
+<li data-line="144" dir="auto"><span class="list-bullet"></span>Podczas sekcji dzika bohaterowie znajdują w nim ułamany grot strzały.</li>
+<li data-line="145" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Rozpoznanie wskazuje, że:
+<ul class="has-list-bullet">
+<li data-line="146" dir="auto"><span class="list-bullet"></span>grot bardzo przypomina amunicję używaną przez <strong>Zakon Beithira</strong>.</li>
+</ul>
+</li>
+<li data-line="147" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Nie da się potwierdzić, czy strzała była celowo zatruta, ale:
+<ul class="has-list-bullet">
+<li data-line="148" dir="auto"><span class="list-bullet"></span>standardowo zakon nie słynął z zatruwania strzał,</li>
+<li data-line="149" dir="auto"><span class="list-bullet"></span>sama choroba/plaga wygląda raczej na coś magicznego niż zwykłą truciznę.</li>
+</ul>
+</li>
+<li data-line="150" dir="auto"><span class="list-bullet"></span>Drużyna pali ciało dzika.</li>
+<li data-line="151" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Po spaleniu zostają:
+<ul class="has-list-bullet">
+<li data-line="152" dir="auto"><span class="list-bullet"></span>zdeformowane kości,</li>
+<li data-line="153" dir="auto"><span class="list-bullet"></span>pęknięcia i narośla,</li>
+<li data-line="154" dir="auto"><span class="list-bullet"></span>ślady nadal wygasającej magii.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="156" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Opuszczona osada przed twierdzą</strong></p>
+<ul class="has-list-bullet">
+<li data-line="157" dir="auto"><span class="list-bullet"></span>Kolejnego dnia drużyna dociera do ostatniej osady przed twierdzą.</li>
+<li data-line="158" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Z daleka wygląda ona na martwą:
+<ul class="has-list-bullet">
+<li data-line="159" dir="auto"><span class="list-bullet"></span>brak dymu,</li>
+<li data-line="160" dir="auto"><span class="list-bullet"></span>brak oznak normalnego życia,</li>
+<li data-line="161" dir="auto"><span class="list-bullet"></span>większość zabudowań spalona lub zarośnięta.</li>
+</ul>
+</li>
+<li data-line="162" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Na miejscu okazuje się, że:
+<ul class="has-list-bullet">
+<li data-line="163" dir="auto"><span class="list-bullet"></span>osada rzeczywiście jest niemal opuszczona,</li>
+<li data-line="164" dir="auto"><span class="list-bullet"></span>ale są świeże ślady bosych stóp,</li>
+<li data-line="165" dir="auto"><span class="list-bullet"></span>co najmniej trzy osoby nadal się tu poruszają.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="167" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Skażeni ludzie</strong></p>
+<ul class="has-list-bullet">
+<li data-line="168" dir="auto"><span class="list-bullet"></span>Detect Magic wskazuje aktywną, żywszą magię podobną do tej związanej z plagą i robactwem.</li>
+<li data-line="169" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span><a data-href="Zakkar" href="people/players_team/characters/zakkar.html" class="internal-link" target="_self" rel="noopener nofollow">Zakkar</a> zauważa w jednej z chat chorego mężczyznę:
+<ul class="has-list-bullet">
+<li data-line="170" dir="auto"><span class="list-bullet"></span>niemal nagiego,</li>
+<li data-line="171" dir="auto"><span class="list-bullet"></span>obszarpanego,</li>
+<li data-line="172" dir="auto"><span class="list-bullet"></span>uzbrojonego w łuk,</li>
+<li data-line="173" dir="auto"><span class="list-bullet"></span>z ciałem wyraźnie zniekształconym przez chorobę.</li>
+</ul>
+</li>
+<li data-line="174" dir="auto"><span class="list-bullet"></span>Szczególnie przerażające jest to, że jego klatka piersiowa „oddycha” nienaturalnie, jakby działał w niej dodatkowy organizm lub pasożyt.</li>
+<li data-line="175" dir="auto"><span class="list-bullet"></span>Mężczyzna ukrywa się i znika z pola widzenia.</li>
+</ul>
+</li>
+<li data-line="177" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Chata, symbole i zejście pod ziemię</strong></p>
+<ul class="has-list-bullet">
+<li data-line="178" dir="auto"><span class="list-bullet"></span>Drużyna obchodzi chatę i dostaje się do środka.</li>
+<li data-line="179" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Wnętrze wygląda paskudnie:
+<ul class="has-list-bullet">
+<li data-line="180" dir="auto"><span class="list-bullet"></span>przegniła podłoga,</li>
+<li data-line="181" dir="auto"><span class="list-bullet"></span>trawa wyrastająca przez deski,</li>
+<li data-line="182" dir="auto"><span class="list-bullet"></span>ślady zamieszkania mimo ruiny.</li>
+</ul>
+</li>
+<li data-line="183" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Na ścianach widać powtarzający się symbol:
+<ul class="has-list-bullet">
+<li data-line="184" dir="auto"><span class="list-bullet"></span>spiralne wzory z ciemnoczerwonych kropek,</li>
+<li data-line="185" dir="auto"><span class="list-bullet"></span>wyglądające na celowe znaki rytualne, a nie przypadkowe zachlapania.</li>
+</ul>
+</li>
+<li data-line="186" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Wiedza okultystyczna i zakonna pozwala skojarzyć je z dawnym, lokalnym kultem:
+<ul class="has-list-bullet">
+<li data-line="187" dir="auto"><span class="list-bullet"></span>sprzed dekad Zakon walczył z sektą/matriarchatem na północy,</li>
+<li data-line="188" dir="auto"><span class="list-bullet"></span>kobiety tego kultu czciły leśne bóstwo,</li>
+<li data-line="189" dir="auto"><span class="list-bullet"></span>za wizje płaciły ludzką krwią,</li>
+<li data-line="190" dir="auto"><span class="list-bullet"></span>byt ten nazywano po prostu <strong>Matką</strong>.</li>
+</ul>
+</li>
+<li data-line="191" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>W chacie znajduje się też tunel wykopany w dół:
+<ul class="has-list-bullet">
+<li data-line="192" dir="auto"><span class="list-bullet"></span>nie narzędziami, lecz raczej pazurami lub zębami,</li>
+<li data-line="193" dir="auto"><span class="list-bullet"></span>bardzo cuchnący,</li>
+<li data-line="194" dir="auto"><span class="list-bullet"></span>prowadzący do podziemi,</li>
+<li data-line="195" dir="auto"><span class="list-bullet"></span>bez wyraźnego przeciągu, więc możliwe, że nie ma drugiego wyjścia albo jest ono bardzo daleko / dobrze ukryte.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="197" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Na koniec sesji</strong></p>
+<ul class="has-list-bullet">
+<li data-line="198" dir="auto"><span class="list-bullet"></span>Drużyna planuje zadymić tunel, by zmusić ukrywających się pod ziemią do wyjścia.</li>
+<li data-line="199" dir="auto"><span class="list-bullet"></span>Sesja urywa się w momencie przygotowań do tej akcji.</li>
+</ul>
+</li>
+<li data-line="201" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Najważniejsze ustalenia fabularne</strong></p>
+<ul class="has-list-bullet">
+<li data-line="202" dir="auto"><span class="list-bullet"></span>Źródło skażenia na pewno znajduje się dalej na północ, prawdopodobnie w rejonie twierdzy.</li>
+<li data-line="203" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Skażenie dotyka:
+<ul class="has-list-bullet">
+<li data-line="204" dir="auto"><span class="list-bullet"></span>zwierząt,</li>
+<li data-line="205" dir="auto"><span class="list-bullet"></span>ludzi,</li>
+<li data-line="206" dir="auto"><span class="list-bullet"></span>być może całe lokalne społeczności.</li>
+</ul>
+</li>
+<li data-line="207" dir="auto"><span class="list-bullet"></span>Choroba/plaga ma komponent magiczny.</li>
+<li data-line="208" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Istnieje możliwy związek między:
+<ul class="has-list-bullet">
+<li data-line="209" dir="auto"><span class="list-bullet"></span>dawną działalnością Zakonu Beithira,</li>
+<li data-line="210" dir="auto"><span class="list-bullet"></span>lokalnym kultem „Matki”,</li>
+<li data-line="211" dir="auto"><span class="list-bullet"></span>obecną „Matką Czerwi”,</li>
+<li data-line="212" dir="auto"><span class="list-bullet"></span>mutacjami i robactwem.</li>
+</ul>
+</li>
+<li data-line="213" dir="auto"><span class="list-bullet"></span>W okolicy żyją już nie tylko chore bestie, ale też zainfekowani ludzie, którzy najwyraźniej organizują sobie kryjówki pod ziemią.</li>
+</ul>
+</li>
+<li data-line="215" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p><strong>Ważne postacie i nazwy</strong></p>
+<ul class="has-list-bullet">
+<li data-line="216" dir="auto"><span class="list-bullet"></span><strong><a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a></strong> – prowadzi drużynę przez znane sobie okolice i dostarcza wiedzy o dawnym stanie regionu.</li>
+<li data-line="217" dir="auto"><span class="list-bullet"></span><strong><a data-href="Brovur" href="people/players_team/characters/brovur.html" class="internal-link" target="_self" rel="noopener nofollow">Brovur</a></strong> – aktywnie reaguje na zagrożenia, bierze udział w walce i w badaniu skażonych stworzeń.</li>
+<li data-line="218" dir="auto"><span class="list-bullet"></span><strong><a data-href="Zakkar" href="people/players_team/characters/zakkar.html" class="internal-link" target="_self" rel="noopener nofollow">Zakkar</a></strong> – tropi, zwiaduje, rozpoznaje zagrożenia i odkrywa szczegóły dotyczące zainfekowanych ludzi oraz tunelu.</li>
+<li data-line="219" dir="auto"><span class="list-bullet"></span><strong><a data-href="Mor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mor</a></strong> – felczerka z Echlin, ważne źródło informacji o chorobie i lokalnych plotkach.</li>
+<li data-line="220" dir="auto"><span class="list-bullet"></span><strong><a data-href="Torkan" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Torkan</a></strong> – wójt Echlin, wspomniany jako nadal pełniący funkcję.</li>
+<li data-line="221" dir="auto"><span class="list-bullet"></span><strong>Echlin</strong> – pierwsza ufortyfikowana i wciąż zamieszkana osada na trasie.</li>
+<li data-line="222" dir="auto"><span class="list-bullet"></span><strong>Matka Czerwi</strong> – lokalna nazwa bytu / źródła plagi, prawdopodobnie związanego z robactwem, mutacją i północą.</li>
+<li data-line="223" dir="auto"><span class="list-bullet"></span><strong>Zakon Beithira</strong> – dawniej obecny w regionie; jego ślady i możliwe sekrety wracają jako ważny element śledztwa.</li>
+</ul>
+</li>
+</ul></div><div class="footer"><div class="data-bar"></div></div></div></div></div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"><div id="right-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme-toggle-input" id=""><input class="theme-toggle-input" type="checkbox" id="theme-toggle-input"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="right-sidebar-content" class="leaf-content"><div class="graph-view-wrapper"><div class="feature-header"><div class="feature-title">Interactive Graph</div></div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<div class="graph-icon graph-global" role="button" aria-label="Global Graph" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div id="outline" class=" tree-container"><div class="feature-header"><div class="feature-title">Table Of Contents</div><button class="clickable-icon nav-action-button tree-collapse-all" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-item" data-depth="1"><a class="tree-item-self is-clickable" href="sessions/sesja-2026-02-25.html#Sesja_2026-02-25_0" data-path="#Sesja_2026-02-25_0"><div class="tree-item-inner heading-link" heading-name="Sesja 2026-02-25">Sesja 2026-02-25</div></a><div class="tree-item-children"></div></div><div class="tree-item mod-collapsible" data-depth="1"><a class="tree-item-self is-clickable mod-collapsible" href="sessions/sesja-2026-02-25.html#Skrót_sesji_(na_podstawie_transkrypcji)_0" data-path="#Skrót_sesji_(na_podstawie_transkrypcji)_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Skrót sesji (na podstawie transkrypcji)">Skrót sesji (na podstawie transkrypcji)</div></a><div class="tree-item-children"><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="sessions/sesja-2026-02-25.html#TL;DR_0" data-path="#TL;DR_0"><div class="tree-item-inner heading-link" heading-name="TL;DR">TL;DR</div></a><div class="tree-item-children"></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-item-self is-clickable mod-collapsible" href="sessions/sesja-2026-02-25.html#Co_się_wydarzyło_(po_kolei)_0" data-path="#Co_się_wydarzyło_(po_kolei)_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Co się wydarzyło (po kolei)">Co się wydarzyło (po kolei)</div></a><div class="tree-item-children"><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="sessions/sesja-2026-02-25.html#1)_Droga_i_pierwsze_niepokojące_znaki_0" data-path="#1)_Droga_i_pierwsze_niepokojące_znaki_0"><div class="tree-item-inner heading-link" heading-name="1) Droga i pierwsze niepokojące znaki">1. Droga i pierwsze niepokojące znaki</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="sessions/sesja-2026-02-25.html#2)_Wejście_do_Echlin_0" data-path="#2)_Wejście_do_Echlin_0"><div class="tree-item-inner heading-link" heading-name="2) Wejście do Echlin">2. Wejście do Echlin</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="sessions/sesja-2026-02-25.html#3)_Karczma_plotki_o_„chorobie_z_północy”_0" data-path="#3)_Karczma_plotki_o_„chorobie_z_północy”_0"><div class="tree-item-inner heading-link" heading-name="3) Karczma: plotki o „chorobie z północy”">3. Karczma: plotki o „chorobie z północy”</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="sessions/sesja-2026-02-25.html#4)_Felczerka_[[Mor]]_i_„rana,_która_rośnie”_0" data-path="#4)_Felczerka_[[Mor]]_i_„rana,_która_rośnie”_0"><div class="tree-item-inner heading-link" heading-name="4) Felczerka [[Mor]] i „rana, która rośnie”">4. Felczerka Mor i „rana, która rośnie”</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="sessions/sesja-2026-02-25.html#5)_Pacjent_i_katastrofa_„leczenia”_0" data-path="#5)_Pacjent_i_katastrofa_„leczenia”_0"><div class="tree-item-inner heading-link" heading-name="5) Pacjent i katastrofa „leczenia”">5. Pacjent i katastrofa „leczenia”</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="sessions/sesja-2026-02-25.html#6)_Nowy_trop_„Matka_Czerwi”_0" data-path="#6)_Nowy_trop_„Matka_Czerwi”_0"><div class="tree-item-inner heading-link" heading-name="6) Nowy trop: „Matka Czerwi”">6. Nowy trop: „Matka Czerwi”</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="sessions/sesja-2026-02-25.html#7)_W_drogę_i_nocna_walka_z_zakażonym_dzikiem_0" data-path="#7)_W_drogę_i_nocna_walka_z_zakażonym_dzikiem_0"><div class="tree-item-inner heading-link" heading-name="7) W drogę i nocna walka z zakażonym dzikiem">7. W drogę i nocna walka z zakażonym dzikiem</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="sessions/sesja-2026-02-25.html#Najważniejsze_ustalenia_/_wnioski_0" data-path="#Najważniejsze_ustalenia_/_wnioski_0"><div class="tree-item-inner heading-link" heading-name="Najważniejsze ustalenia / wnioski">Najważniejsze ustalenia / wnioski</div></a><div class="tree-item-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector("#right-sidebar"); rs.classList.toggle("is-collapsed", window.innerWidth < 768); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></div></div></body></html>

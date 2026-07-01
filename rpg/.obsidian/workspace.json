@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "facec5a041706bb4",
+        "id": "3b63c326055b1299",
         "type": "tabs",
         "children": [
           {
-            "id": "77a9b6159410ab4e",
+            "id": "02257a5f7b8343f8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "people/npc/telgwyth/Brat Daetor.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Brat Daetor"
+              "title": "index"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "uczennica",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "people/npc/telgwyth/Brat Daetor.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Konspekt Brat Daetor"
+              "title": "Konspekt index"
             }
           }
         ],
@@ -170,11 +170,8 @@
       "bases:Stwórz nową bazę danych": false
     }
   },
-  "active": "77a9b6159410ab4e",
+  "active": "02257a5f7b8343f8",
   "lastOpenFiles": [
-    "people/npc/telgwyth/Iravel.md",
-    "people/npc/telgwyth/Brat Daetor.md",
-    "index.md",
     "gm/Historia Orphne info od GM.md",
     "places/countries/Edonia.md",
     "gm/Edonia info od GM.md",
@@ -198,26 +195,29 @@
     "core/gender/Kobieta.md",
     "core/races/Catfolk.md",
     "core/races/Dwarf.md",
+    "core/races/Elf.md",
+    "core/races/Half-Elf.md",
+    "core/races/Half-Orc.md",
+    "src/pantheon_aquila_2.jpg",
+    "src/pantheon_junn.jpg",
+    "src/pantheon_aklys.png",
+    "src/pantheon_aquila_1.jpg",
+    "src/ot_zorgac.jpg",
+    "src/ot_yuphistes.jpg",
+    "src/ot_orphne.jpeg",
+    "src/creature_homunculus.png",
+    "src/creature_1.png",
+    "src/npc/npc_oforos.png",
     "people/npc/new_morvanon_npc",
     "people/npc/edonia_npc",
     "people/npc/new/Otwin.md~",
     "sessions/Sesja 2026-05-25.md~",
     "people/npc/new",
-    "src/pantheon_aquila_2.jpg",
     "sessions/Sesja 2026-06-15.md~",
     "sessions/Sesja 2026-01-19.md~",
     "sessions/Sesja 2026-05-04.md~",
     "sessions/Sesja 2025-10-23.md~",
     "sessions/Sesja 2026-03-30.md~",
-    "src/npc/npc_meirwen.png",
-    "src/npc/npc_asardin.jpg",
-    "src/creature_1.png",
-    "src/places/places_telgwyth.png",
-    "src/pantheon_junn.jpg",
-    "src/pantheon_aquila_1.jpg",
-    "src/ot_yuphistes.jpg",
-    "src/ot_zorgac.jpg",
-    "Pasted image 20251117195217.png",
     "Bez nazwy.canvas",
     "core/Bez nazwy.canvas"
   ]
