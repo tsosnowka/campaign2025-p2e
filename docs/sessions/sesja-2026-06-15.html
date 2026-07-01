@@ -1,0 +1,601 @@
+<!DOCTYPE html> <html lang="pl"><head>
+<title>Sesja 2026-06-15</title>
+<base href="..">
+<meta name="pathname" content="sessions/sesja-2026-06-15.html">
+<meta name="description" content="rpg - Sesja 2026-06-15">
+<meta property="og:title" content="Sesja 2026-06-15">
+<meta property="og:description" content="rpg - Sesja 2026-06-15">
+<meta property="og:type" content="website">
+<meta property="og:url" content="sessions/sesja-2026-06-15.html">
+<meta property="og:image" content="undefined">
+<meta charset="UTF-8"><meta property="og:site_name" content="rpg"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="site-lib/rss.xml"><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="site-lib/media/favicon.png"><link rel="preload" href="site-lib/styles/snippets.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/snippets.css"></noscript><link rel="stylesheet" href="site-lib/styles/obsidian.css"><link rel="preload" href="site-lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/other-plugins.css"></noscript><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px}:root{background-color:#202124}.sidebar{height:100%;font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}#right-sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:calc(2.3em + 2 * var(--sidebar-margin));width:var(--sidebar-width);padding:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row;border-top-right-radius:var(--radius-l)}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse;border-top-left-radius:var(--radius-l)}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.feature-title{margin-left:1px;text-transform:uppercase;letter-spacing:.06em;margin-top:.75em;margin-bottom:.75em}.feature-header{display:flex;align-items:center;padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#navbar:not(:empty){display:flex;align-items:center;justify-content:space-between;padding:.5em 1em;width:100%}#main{display:flex;flex-direction:column;height:100%;width:100%;align-items:stretch;justify-content:center}#main-horizontal{display:flex;flex-direction:row;flex-grow:1;width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6,li):has(> :is(.math,table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const n=await fetch(e);if(!n.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await n.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let n=document.createRange().createContextualFragment(o);t.before(n),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(n){let l=o[n],c=n+1;l?(l&&"true"!=l.getAttribute("loaded")||n<o.length&&e(c),n<o.length&&l.addEventListener("load",(()=>e(c)))):n<o.length?e(c):t()}(0)}</script></head><body class="publish css-settings-manager styled-scrollbars show-inline-title show-ribbon is-focused"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="parsed-feature-container" style="display: contents;"><link itemprop="include" href="site-lib/html/custom-head-content-content.html"></div><div id="main"><div id="navbar"></div><div id="main-horizontal"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"><div id="left-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><div id="search-container"><div id="search-wrapper"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div aria-label="Clear search" id="search-clear-button"></div></div></div></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="left-sidebar-content" class="leaf-content"><link itemprop="include" href="site-lib/html/file-tree-content.html"></div></div><script defer="">let ls = document.querySelector("#left-sidebar"); ls.classList.toggle("is-collapsed", window.innerWidth < 768); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div></div><div id="center-content" class="leaf"><div class="obsidian-document markdown-preview-view markdown-rendered node-insert-event is-readable-line-width allow-fold-headings allow-fold-lists show-indentation-guide show-properties" data-type="markdown"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><div class="header"><h1 class="page-title heading inline-title" id="Sesja_2026-06-15_0">Sesja 2026-06-15</h1><div class="data-bar"></div></div><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-p"><p dir="auto">Poprzednia sesja: <a data-href="Sesja 2026-06-01" href="sessions/sesja-2026-06-01.html" class="internal-link" target="_self" rel="noopener nofollow">Sesja 2026-06-01</a><br>
+Następna sesja: <a data-href="Sesja 2026-06-22" href="sessions/sesja-2026-06-22.html" class="internal-link" target="_self" rel="noopener nofollow">Sesja 2026-06-22</a></p></div><div class="el-hr"><hr></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>tl;dr:</p>
+<ul class="has-list-bullet">
+<li data-line="1" dir="auto"><span class="list-bullet"></span>Drużyna próbuje zdążyć przed przekazaniem <a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a> Raedowi i kościelnymi stojącym pod miastem.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>Plan z podrobionym listem do <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a zostaje rozważony, ale ostatecznie traci priorytet, gdy wychodzi na jaw, że ludzie <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a już próbują dostać się do pałacu przez tunele.</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span><a data-href="Gothard" href="people/npc/edonia_npc/gothard.html" class="internal-link" target="_self" rel="noopener nofollow">Gothard</a> informuje, że straż miejska intensywnie szuka drużyny, a <a data-href="Meirwen" href="people/npc/new_morvanon_npc/meirwen.html" class="internal-link" target="_self" rel="noopener nofollow">Meirwen</a> wie już o Asardinie zamkniętym przez <a data-href="Isberin" href="people/npc/new_morvanon_npc/isberin.html" class="internal-link" target="_self" rel="noopener nofollow">Isberin</a>a.</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span>Drużyna idzie do starego <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a, żeby zdobyć wiedzę o tunelach łączących się z pałacem.</li>
+<li data-line="5" dir="auto"><span class="list-bullet"></span>U <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a drużyna trafia na najemnych obwiesiów i kapłana Nox działających dla <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a.</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span>Dochodzi do krótkiej walki; drużyna obezwładnia ochroniarzy, kapłana i ratuje torturowanego <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a.</li>
+<li data-line="7" dir="auto"><span class="list-bullet"></span><a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a> wskazuje wejście do zachodnich tuneli, informuje o zamurowanym przejściu z napisem związanym z Adgrodotem i ostrzega przed obszarem w pałacu używanym przez visceromantów.</li>
+<li data-line="8" dir="auto"><span class="list-bullet"></span>Kapłan Nox zdradza, że <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a> wysłał już dwa oddziały po sześć osób, aby wyciągnąć <a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a> z pałacu.</li>
+<li data-line="9" dir="auto"><span class="list-bullet"></span>Drużyna rezygnuje z planu listu i decyduje się obserwować trzy wejścia do tuneli.</li>
+<li data-line="10" dir="auto"><span class="list-bullet"></span>Pod koniec sesji dwie grupy <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a wchodzą do podziemi; drużyna i <a data-href="Frank" href="people/players_team/characters/frank.html" class="internal-link" target="_self" rel="noopener nofollow">Frank</a> zaczynają je śledzić, a sesja kończy się przy murach łączących tunele z pałacem.</li>
+</ul>
+</li>
+<li data-line="12" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Sytuacja początkowa:</p>
+<ul class="has-list-bullet">
+<li data-line="13" dir="auto"><span class="list-bullet"></span><a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a> ma zostać przekazana Raedowi i kościelnym pod miastem następnego wieczora.</li>
+<li data-line="14" dir="auto"><span class="list-bullet"></span>Przekazanie <a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a> ma przeprowadzić <a data-href="Ralgrid" href="people/npc/edonia_npc/ralgrid.html" class="internal-link" target="_self" rel="noopener nofollow">Ralgrid</a>, król <a data-href="Edonia" href="places/countries/edonia.html" class="internal-link" target="_self" rel="noopener nofollow">Edonia</a>.</li>
+<li data-line="15" dir="auto"><span class="list-bullet"></span><a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a> nie ma jeszcze pełnej informacji, bo drużyna wcześniej przejęła posłańca.</li>
+<li data-line="16" dir="auto"><span class="list-bullet"></span>Drużyna posiada podrobiony list mający wyglądać jak wiadomość od króla.</li>
+<li data-line="17" dir="auto"><span class="list-bullet"></span>Treść listu sugeruje zerwanie rokowań i odmowę dalszego paktowania z Raedem.</li>
+<li data-line="18" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Celem listu miało być:
+<ul class="has-list-bullet">
+<li data-line="19" dir="auto"><span class="list-bullet"></span>skłócenie <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a z <a data-href="Ralgrid" href="people/npc/edonia_npc/ralgrid.html" class="internal-link" target="_self" rel="noopener nofollow">Ralgrid</a>em,</li>
+<li data-line="20" dir="auto"><span class="list-bullet"></span>wzbudzenie chaosu,</li>
+<li data-line="21" dir="auto"><span class="list-bullet"></span>opóźnienie lub sprowokowanie błędnych ruchów <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a,</li>
+<li data-line="22" dir="auto"><span class="list-bullet"></span>sprawienie, że <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a> uzna, iż <a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a> nie zostanie mu wydana.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="24" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Plan z podrobionym listem:</p>
+<ul class="has-list-bullet">
+<li data-line="25" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Drużyna rozważa różne sposoby dostarczenia listu:
+<ul class="has-list-bullet">
+<li data-line="26" dir="auto"><span class="list-bullet"></span>wysłanie gołębiem pocztowym,</li>
+<li data-line="27" dir="auto"><span class="list-bullet"></span>wysłanie biednego dzieciaka z historią o napadniętym posłańcu,</li>
+<li data-line="28" dir="auto"><span class="list-bullet"></span>przebranie kogoś z drużyny za posłańca,</li>
+<li data-line="29" dir="auto"><span class="list-bullet"></span>użycie iluzji, by odtworzyć wygląd zdezintegrowanego posłańca.</li>
+</ul>
+</li>
+<li data-line="30" dir="auto"><span class="list-bullet"></span><a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> ocenia, że wysłanie tak ważnej korespondencji gołębiem byłoby podejrzane i mogłoby zdradzić fałszerstwo.</li>
+<li data-line="31" dir="auto"><span class="list-bullet"></span>Ustalono, że wiadomość powinna dostarczyć osoba wyglądająca jak posłaniec.</li>
+<li data-line="32" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Problemem okazuje się brak stroju posłańca:
+<ul class="has-list-bullet">
+<li data-line="33" dir="auto"><span class="list-bullet"></span>posłaniec został wcześniej zdezintegrowany razem z ubraniem,</li>
+<li data-line="34" dir="auto"><span class="list-bullet"></span>jego strój miał konkretne barwy, herb i wygląd błazna/herolda,</li>
+<li data-line="35" dir="auto"><span class="list-bullet"></span>iluzja sama w sobie nie rozwiązuje problemu, jeśli nie obejmuje ubrań albo jeśli interpretacja czaru jest niejasna.</li>
+</ul>
+</li>
+<li data-line="36" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span><a data-href="Zakkar" href="people/players_team/characters/zakkar.html" class="internal-link" target="_self" rel="noopener nofollow">Zakkar</a> ocenia pieczęć i uznaje, że jest „ujdzie”:
+<ul class="has-list-bullet">
+<li data-line="37" dir="auto"><span class="list-bullet"></span>pieczęć nie wygląda fatalnie,</li>
+<li data-line="38" dir="auto"><span class="list-bullet"></span>widać jednak pośpiech przy lakowaniu,</li>
+<li data-line="39" dir="auto"><span class="list-bullet"></span>jeśli odbiorca będzie się jej mocno przyglądał, może powstać ryzyko.</li>
+</ul>
+</li>
+<li data-line="40" dir="auto"><span class="list-bullet"></span><a data-href="Gothard" href="people/npc/edonia_npc/gothard.html" class="internal-link" target="_self" rel="noopener nofollow">Gothard</a> idzie do <a data-href="Valgrid" href="people/npc/edonia_npc/valgrid.html" class="internal-link" target="_self" rel="noopener nofollow">Valgrid</a>a, aby spróbować zdobyć odpowiedni strój posłańca.</li>
+<li data-line="41" dir="auto"><span class="list-bullet"></span><a data-href="Valgrid" href="people/npc/edonia_npc/valgrid.html" class="internal-link" target="_self" rel="noopener nofollow">Valgrid</a> deklaruje, że może załatwić szatę jeszcze tego samego dnia.</li>
+<li data-line="42" dir="auto"><span class="list-bullet"></span>Plan listu zostaje zawieszony, bo w międzyczasie wychodzi na jaw, że <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a> już uruchomił własną akcję w tunelach.</li>
+</ul>
+</li>
+<li data-line="44" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Informacje od <a data-href="Gothard" href="people/npc/edonia_npc/gothard.html" class="internal-link" target="_self" rel="noopener nofollow">Gothard</a>a:</p>
+<ul class="has-list-bullet">
+<li data-line="45" dir="auto"><span class="list-bullet"></span><a data-href="Gothard" href="people/npc/edonia_npc/gothard.html" class="internal-link" target="_self" rel="noopener nofollow">Gothard</a> wraca do bazy w przebraniu łachmaniarza.</li>
+<li data-line="46" dir="auto"><span class="list-bullet"></span>Spotkał się z <a data-href="Valgrid" href="people/npc/edonia_npc/valgrid.html" class="internal-link" target="_self" rel="noopener nofollow">Valgrid</a>em poza jego domem, żeby nie ściągać na niego podejrzeń.</li>
+<li data-line="47" dir="auto"><span class="list-bullet"></span>Straż miejska była już u <a data-href="Valgrid" href="people/npc/edonia_npc/valgrid.html" class="internal-link" target="_self" rel="noopener nofollow">Valgrid</a>a, ale nie powiązała go z drużyną.</li>
+<li data-line="48" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Straż miejska nadal szuka drużyny:
+<ul class="has-list-bullet">
+<li data-line="49" dir="auto"><span class="list-bullet"></span>siedzi w karczmach,</li>
+<li data-line="50" dir="auto"><span class="list-bullet"></span>patrole wieczorne zostały podwojone,</li>
+<li data-line="51" dir="auto"><span class="list-bullet"></span>straż jest bardzo widoczna w mieście.</li>
+</ul>
+</li>
+<li data-line="52" dir="auto"><span class="list-bullet"></span><a data-href="Gothard" href="people/npc/edonia_npc/gothard.html" class="internal-link" target="_self" rel="noopener nofollow">Gothard</a> przekazał <a data-href="Meirwen" href="people/npc/new_morvanon_npc/meirwen.html" class="internal-link" target="_self" rel="noopener nofollow">Meirwen</a> informację, że <a data-href="Asardin" href="people/npc/new_morvanon_npc/asardin.html" class="internal-link" target="_self" rel="noopener nofollow">Asardin</a> jest obecnie zamknięty przez <a data-href="Isberin" href="people/npc/new_morvanon_npc/isberin.html" class="internal-link" target="_self" rel="noopener nofollow">Isberin</a>a.</li>
+<li data-line="53" dir="auto"><span class="list-bullet"></span><a data-href="Meirwen" href="people/npc/new_morvanon_npc/meirwen.html" class="internal-link" target="_self" rel="noopener nofollow">Meirwen</a> ma spróbować odnaleźć <a data-href="Asardin" href="people/npc/new_morvanon_npc/asardin.html" class="internal-link" target="_self" rel="noopener nofollow">Asardin</a>a.</li>
+<li data-line="54" dir="auto"><span class="list-bullet"></span>Jeśli <a data-href="Asardin" href="people/npc/new_morvanon_npc/asardin.html" class="internal-link" target="_self" rel="noopener nofollow">Asardin</a>a nie uda się odzyskać, drużyna i <a data-href="Meirwen" href="people/npc/new_morvanon_npc/meirwen.html" class="internal-link" target="_self" rel="noopener nofollow">Meirwen</a> będą musieli sami przeprowadzić rytuał zamykający portale po odbiciu <a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a>.</li>
+</ul>
+</li>
+<li data-line="56" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Dyskusja o sposobie wejścia do pałacu:</p>
+<ul class="has-list-bullet">
+<li data-line="57" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Drużyna rozważa dwa główne plany:
+<ul class="has-list-bullet">
+<li data-line="58" dir="auto"><span class="list-bullet"></span>wejście tunelami po konsultacji z <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>em,</li>
+<li data-line="59" dir="auto"><span class="list-bullet"></span>użycie iluzji, by podszyć się pod ekipę visceromantów wchodzącą do pałacu.</li>
+</ul>
+</li>
+<li data-line="60" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Plan z visceromantami wydaje się kuszący, bo:
+<ul class="has-list-bullet">
+<li data-line="61" dir="auto"><span class="list-bullet"></span><a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> wie, gdzie visceromanci wchodzą,</li>
+<li data-line="62" dir="auto"><span class="list-bullet"></span>widział, jak transportują rzeczy do pałacu,</li>
+<li data-line="63" dir="auto"><span class="list-bullet"></span>iluzja mogłaby zapewnić wygląd, głos i zapach.</li>
+</ul>
+</li>
+<li data-line="64" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Plan z visceromantami ma jednak duże ryzyka:
+<ul class="has-list-bullet">
+<li data-line="65" dir="auto"><span class="list-bullet"></span>przy wejściu visceromantów stoi potworny pies/stworzenie obwąchujące przechodzących,</li>
+<li data-line="66" dir="auto"><span class="list-bullet"></span>nie wiadomo, czy stworzenie wykrywa tylko zapach, czy też magię,</li>
+<li data-line="67" dir="auto"><span class="list-bullet"></span>czar trwa ograniczony czas,</li>
+<li data-line="68" dir="auto"><span class="list-bullet"></span>teleportacja wymaga rytuału trwającego około 10 minut,</li>
+<li data-line="69" dir="auto"><span class="list-bullet"></span>ewentualna wpadka od razu alarmuje pałac.</li>
+</ul>
+</li>
+<li data-line="70" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Drużyna rozważa też ukrycie się w słojach przewożonych przez visceromantów :
+<ul class="has-list-bullet">
+<li data-line="71" dir="auto"><span class="list-bullet"></span>w słojach widziano całe krasnoludy zalane substancją,</li>
+<li data-line="72" dir="auto"><span class="list-bullet"></span>plan uznano za bardzo ryzykowny,</li>
+<li data-line="73" dir="auto"><span class="list-bullet"></span>słoje również były obwąchiwane/sprawdzane.</li>
+</ul>
+</li>
+<li data-line="74" dir="auto"><span class="list-bullet"></span>Ostatecznie drużyna uznaje, że najpierw trzeba zdobyć informacje od <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a.</li>
+</ul>
+</li>
+<li data-line="76" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Przygotowanie do wizyty u <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a:</p>
+<ul class="has-list-bullet">
+<li data-line="77" dir="auto"><span class="list-bullet"></span><a data-href="Gothard" href="people/npc/edonia_npc/gothard.html" class="internal-link" target="_self" rel="noopener nofollow">Gothard</a> podaje adres <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a.</li>
+<li data-line="78" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span><a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>:
+<ul class="has-list-bullet">
+<li data-line="79" dir="auto"><span class="list-bullet"></span>jest człowiekiem po sześćdziesiątce,</li>
+<li data-line="80" dir="auto"><span class="list-bullet"></span>kiedyś był głównym <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>em pałacowym całej góry,</li>
+<li data-line="81" dir="auto"><span class="list-bullet"></span>został usunięty z pałacu po konflikcie z <a data-href="Ralgrid" href="people/npc/edonia_npc/ralgrid.html" class="internal-link" target="_self" rel="noopener nofollow">Ralgrid</a>em o przebudowy głęboko pod górą,</li>
+<li data-line="82" dir="auto"><span class="list-bullet"></span>większość dni spędza pijany u siebie,</li>
+<li data-line="83" dir="auto"><span class="list-bullet"></span>nadal miewa zlecenia od szlachty, bo jego nazwisko ma prestiż.</li>
+</ul>
+</li>
+<li data-line="84" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Drużyna planuje przekonać <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a:
+<ul class="has-list-bullet">
+<li data-line="85" dir="auto"><span class="list-bullet"></span>dobrym mocnym alkoholem,</li>
+<li data-line="86" dir="auto"><span class="list-bullet"></span>wspólnym narzekaniem na króla i pałac,</li>
+<li data-line="87" dir="auto"><span class="list-bullet"></span>pretekstem, że jedna z rodzin szlacheckich obawia się zagrożenia z podziemi.</li>
+</ul>
+</li>
+<li data-line="88" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Przyjęta przykrywka:
+<ul class="has-list-bullet">
+<li data-line="89" dir="auto"><span class="list-bullet"></span>przez zaniedbania króla w podziemiach miało zalęgnąć się plugastwo,</li>
+<li data-line="90" dir="auto"><span class="list-bullet"></span>jedna z rodzin szlacheckich w opozycji do króla wynajęła drużynę,</li>
+<li data-line="91" dir="auto"><span class="list-bullet"></span>drużyna potrzebuje map i wiedzy o tunelach, żeby oczyścić zagrożenie.</li>
+</ul>
+</li>
+<li data-line="92" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Drużyna kupuje alkohol:
+<ul class="has-list-bullet">
+<li data-line="93" dir="auto"><span class="list-bullet"></span>mocny trunek dla <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a,</li>
+<li data-line="94" dir="auto"><span class="list-bullet"></span>dodatkowo lepsze wino po negocjacji ceny.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="96" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Sytuacja w mieście:</p>
+<ul class="has-list-bullet">
+<li data-line="97" dir="auto"><span class="list-bullet"></span>Na ulicach jest bardzo dużo straży miejskiej.</li>
+<li data-line="98" dir="auto"><span class="list-bullet"></span>Strażnicy stoją prawie na każdym skrzyżowaniu.</li>
+<li data-line="99" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Drużyna widzi, jak straż zatrzymuje elfa-kupca:
+<ul class="has-list-bullet">
+<li data-line="100" dir="auto"><span class="list-bullet"></span>przeszukują jego wóz,</li>
+<li data-line="101" dir="auto"><span class="list-bullet"></span>rozrzucają worki z mąką,</li>
+<li data-line="102" dir="auto"><span class="list-bullet"></span>biją go,</li>
+<li data-line="103" dir="auto"><span class="list-bullet"></span>ludzie udają, że niczego nie widzą.</li>
+</ul>
+</li>
+<li data-line="104" dir="auto"><span class="list-bullet"></span>Atmosfera w mieście jest napięta i przestraszona.</li>
+<li data-line="105" dir="auto"><span class="list-bullet"></span>To wzmacnia wrażenie, że władza działa brutalnie i że można potencjalnie podburzać ludność przeciw straży/królowi.</li>
+</ul>
+</li>
+<li data-line="107" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Dom <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a:</p>
+<ul class="has-list-bullet">
+<li data-line="108" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Dom znajduje się w dzielnicy „slumsy plus”:
+<ul class="has-list-bullet">
+<li data-line="109" dir="auto"><span class="list-bullet"></span>nie jest to dzielnica szlachecka,</li>
+<li data-line="110" dir="auto"><span class="list-bullet"></span>okolica jest błotnista, wilgotna, ciasna i biedna,</li>
+<li data-line="111" dir="auto"><span class="list-bullet"></span>zabudowa jest drewniana, 2–3 piętra, domy opierają się o siebie.</li>
+</ul>
+</li>
+<li data-line="112" dir="auto"><span class="list-bullet"></span>Przed domem <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a drużyna widzi trzech obwiesiów grających w kości.</li>
+<li data-line="113" dir="auto"><span class="list-bullet"></span><a data-href="Zakkar" href="people/players_team/characters/zakkar.html" class="internal-link" target="_self" rel="noopener nofollow">Zakkar</a>/<a data-href="Hope" href="people/players_team/characters/hope.html" class="internal-link" target="_self" rel="noopener nofollow">Hope</a> rozpoznają ich jako ludzi spotkanych wcześniej w karczmie przy siłowaniu się na rękę.</li>
+<li data-line="114" dir="auto"><span class="list-bullet"></span>Obwiesie udają luźną grę, ale faktycznie pilnują wejścia.</li>
+<li data-line="115" dir="auto"><span class="list-bullet"></span>Jeden z nich puka trzy razy w drzwi, gdy widzi zbliżającą się drużynę.</li>
+<li data-line="116" dir="auto"><span class="list-bullet"></span>Drużyna zaczyna rozmowę ostrożnie, próbując uniknąć awantury na ulicy.</li>
+<li data-line="117" dir="auto"><span class="list-bullet"></span>Obwiesie potwierdzają, że ich szef jest w środku i „załatwia sprawę”.</li>
+<li data-line="118" dir="auto"><span class="list-bullet"></span><a data-href="Frank" href="people/players_team/characters/frank.html" class="internal-link" target="_self" rel="noopener nofollow">Frank</a> zostaje wysłany do środka, żeby sprawdzić sytuację.</li>
+</ul>
+</li>
+<li data-line="120" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Rozpoznanie <a data-href="Frank" href="people/players_team/characters/frank.html" class="internal-link" target="_self" rel="noopener nofollow">Frank</a>a:</p>
+<ul class="has-list-bullet">
+<li data-line="121" dir="auto"><span class="list-bullet"></span><a data-href="Frank" href="people/players_team/characters/frank.html" class="internal-link" target="_self" rel="noopener nofollow">Frank</a> wślizguje się do domu i schodzi do piwnicy.</li>
+<li data-line="122" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>W piwnicy widzi:
+<ul class="has-list-bullet">
+<li data-line="123" dir="auto"><span class="list-bullet"></span>przywiązanego do krzesła, pobitego starszego mężczyznę — <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a,</li>
+<li data-line="124" dir="auto"><span class="list-bullet"></span>kilku obwiesiów,</li>
+<li data-line="125" dir="auto"><span class="list-bullet"></span>osobę wyglądającą na kapłana Nox,</li>
+<li data-line="126" dir="auto"><span class="list-bullet"></span>symbole/medaliony religijne.</li>
+</ul>
+</li>
+<li data-line="127" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Drużyna wnioskuje, że:
+<ul class="has-list-bullet">
+<li data-line="128" dir="auto"><span class="list-bullet"></span>kościelni są już w mieście,</li>
+<li data-line="129" dir="auto"><span class="list-bullet"></span>ludzie <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a próbują zdobyć plany tuneli,</li>
+<li data-line="130" dir="auto"><span class="list-bullet"></span>trwa druga akcja mająca na celu dotarcie do <a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a>,</li>
+<li data-line="131" dir="auto"><span class="list-bullet"></span>drużyna może zostać wyprzedzona.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="133" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Konfrontacja z obwiesiami:</p>
+<ul class="has-list-bullet">
+<li data-line="134" dir="auto"><span class="list-bullet"></span><a data-href="Minthara" href="people/players_team/characters/minthara.html" class="internal-link" target="_self" rel="noopener nofollow">Minthara</a> rozmawia z przywódcą obwiesiów.</li>
+<li data-line="135" dir="auto"><span class="list-bullet"></span>Przywódca ma krew na rękach i ewidentnie brał udział w biciu <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a.</li>
+<li data-line="136" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Drużyna próbuje przekonać go, że:
+<ul class="has-list-bullet">
+<li data-line="137" dir="auto"><span class="list-bullet"></span>nie musi zabijać <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a,</li>
+<li data-line="138" dir="auto"><span class="list-bullet"></span>jego zleceniodawcy mogą zmienić rozkaz,</li>
+<li data-line="139" dir="auto"><span class="list-bullet"></span>kapłan Nox prawdopodobnie wykorzysta ich i pozbędzie się świadków.</li>
+</ul>
+</li>
+<li data-line="140" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Drużyna rozważa różne podejścia:
+<ul class="has-list-bullet">
+<li data-line="141" dir="auto"><span class="list-bullet"></span>wejście w sojusz z obwiesiami,</li>
+<li data-line="142" dir="auto"><span class="list-bullet"></span>udawanie, że chce wejść do pałacu w innym celu,</li>
+<li data-line="143" dir="auto"><span class="list-bullet"></span>zdradzenie ich w dogodnym momencie,</li>
+<li data-line="144" dir="auto"><span class="list-bullet"></span>wejście siłą i szybkie przejęcie sytuacji.</li>
+</ul>
+</li>
+<li data-line="145" dir="auto"><span class="list-bullet"></span>Ostatecznie drużyna decyduje się na szybkie działanie.</li>
+<li data-line="146" dir="auto"><span class="list-bullet"></span><a data-href="Zakkar" href="people/players_team/characters/zakkar.html" class="internal-link" target="_self" rel="noopener nofollow">Zakkar</a> zostaje poinformowany magicznie, że plan z listem jest nieaktualny i powinien przyjść do domu <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a.</li>
+</ul>
+</li>
+<li data-line="148" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Walka w domu <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a:</p>
+<ul class="has-list-bullet">
+<li data-line="149" dir="auto"><span class="list-bullet"></span><a data-href="Illias" href="people/players_team/characters/illias.html" class="internal-link" target="_self" rel="noopener nofollow">Illias</a>/<a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> używa rozkazu/Command, żeby obwiesie weszli do środka.</li>
+<li data-line="150" dir="auto"><span class="list-bullet"></span>Następnie zostaje użyty Fear, przez co jeden z przeciwników wpada w panikę i ucieka na dół.</li>
+<li data-line="151" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Na górze drużyna szybko obezwładnia dwóch obwiesiów:
+<ul class="has-list-bullet">
+<li data-line="152" dir="auto"><span class="list-bullet"></span>część ciosów jest deklarowana jako nieletalna,</li>
+<li data-line="153" dir="auto"><span class="list-bullet"></span>jeden przeciwnik zostaje ciężko obity,</li>
+<li data-line="154" dir="auto"><span class="list-bullet"></span>drugi ucieka po zobaczeniu przewagi drużyny.</li>
+</ul>
+</li>
+<li data-line="155" dir="auto"><span class="list-bullet"></span><a data-href="Hope" href="people/players_team/characters/hope.html" class="internal-link" target="_self" rel="noopener nofollow">Hope</a> schodzi do piwnicy i próbuje zacząć rozmowę.</li>
+<li data-line="156" dir="auto"><span class="list-bullet"></span>Kapłan Nox lekceważy ją słowami w stylu „to tylko jedna kobieta” i nakazuje atak.</li>
+<li data-line="157" dir="auto"><span class="list-bullet"></span><a data-href="Hope" href="people/players_team/characters/hope.html" class="internal-link" target="_self" rel="noopener nofollow">Hope</a> rozpościera skrzydła, próbując zrobić wrażenie i zastraszyć przeciwników.</li>
+<li data-line="158" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>W piwnicy walczą:
+<ul class="has-list-bullet">
+<li data-line="159" dir="auto"><span class="list-bullet"></span>obwiesie/najemnicy,</li>
+<li data-line="160" dir="auto"><span class="list-bullet"></span>ich przywódca,</li>
+<li data-line="161" dir="auto"><span class="list-bullet"></span>kapłan Nox,</li>
+<li data-line="162" dir="auto"><span class="list-bullet"></span>drużyna.</li>
+</ul>
+</li>
+<li data-line="163" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Przywódca obwiesiów nie pali się do walki:
+<ul class="has-list-bullet">
+<li data-line="164" dir="auto"><span class="list-bullet"></span>cofa się,</li>
+<li data-line="165" dir="auto"><span class="list-bullet"></span>obserwuje,</li>
+<li data-line="166" dir="auto"><span class="list-bullet"></span>wygląda, jakby wolał zakończyć konflikt bez dalszej bitki.</li>
+</ul>
+</li>
+<li data-line="167" dir="auto"><span class="list-bullet"></span>Kapłan Nox rzuca mentalny/cieniowy czar w <a data-href="Hope" href="people/players_team/characters/hope.html" class="internal-link" target="_self" rel="noopener nofollow">Hope</a>.</li>
+<li data-line="168" dir="auto"><span class="list-bullet"></span><a data-href="Illias" href="people/players_team/characters/illias.html" class="internal-link" target="_self" rel="noopener nofollow">Illias</a> próbuje użyć dezintegracji na kapłanie, ale efekt nie przechodzi tak, jak by chciał.</li>
+<li data-line="169" dir="auto"><span class="list-bullet"></span><a data-href="Zakkar" href="people/players_team/characters/zakkar.html" class="internal-link" target="_self" rel="noopener nofollow">Zakkar</a> dociera na miejsce i próbuje przekonać przywódcę obwiesiów, że kapłan ich wykorzysta i zabije.</li>
+<li data-line="170" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Przekonywanie/intimidacja działa:
+<ul class="has-list-bullet">
+<li data-line="171" dir="auto"><span class="list-bullet"></span>przywódca każe swoim ludziom rzucić broń,</li>
+<li data-line="172" dir="auto"><span class="list-bullet"></span>obwiesie wycofują się z walki.</li>
+</ul>
+</li>
+<li data-line="173" dir="auto"><span class="list-bullet"></span>Kapłan próbuje jeszcze odpalić silny cieniowy efekt obszarowy, ale drużyna odpiera go bardzo dobrze.</li>
+<li data-line="174" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Kapłan zostaje złamany:
+<ul class="has-list-bullet">
+<li data-line="175" dir="auto"><span class="list-bullet"></span>dostaje obrażenia od efektów utrzymujących się,</li>
+<li data-line="176" dir="auto"><span class="list-bullet"></span><a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> ratuje go przed śmiercią, bo drużyna chce go przesłuchać,</li>
+<li data-line="177" dir="auto"><span class="list-bullet"></span><a data-href="Zakkar" href="people/players_team/characters/zakkar.html" class="internal-link" target="_self" rel="noopener nofollow">Zakkar</a> zeskakuje z góry przez luźne deski i przygniata/obezwładnia kapłana,</li>
+<li data-line="178" dir="auto"><span class="list-bullet"></span>kapłan zostaje związany, zakneblowany i przeszukany.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="180" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Po walce:</p>
+<ul class="has-list-bullet">
+<li data-line="181" dir="auto"><span class="list-bullet"></span><a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> leczy pobitego <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a i drużynę przy pomocy Garden of Healing.</li>
+<li data-line="182" dir="auto"><span class="list-bullet"></span><a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a> odzyskuje siły, a jego rany zaczynają się zamykać.</li>
+<li data-line="183" dir="auto"><span class="list-bullet"></span>Kapłan Nox zostaje przeszukany.</li>
+<li data-line="184" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Przy kapłanie znaleziono:
+<ul class="has-list-bullet">
+<li data-line="185" dir="auto"><span class="list-bullet"></span>symbole religijne,</li>
+<li data-line="186" dir="auto"><span class="list-bullet"></span>modlitwy na kartuszkach,</li>
+<li data-line="187" dir="auto"><span class="list-bullet"></span>notatki z listą pytań do <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a,</li>
+<li data-line="188" dir="auto"><span class="list-bullet"></span>informacje o trzech wejściach do podziemnych tuneli łączących się z pałacowymi kazamatami,</li>
+<li data-line="189" dir="auto"><span class="list-bullet"></span>wskazania wejść po wschodniej części pałacu.</li>
+</ul>
+</li>
+<li data-line="190" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Drużyna zabiera kapłanowi laskę/kostur:
+<ul class="has-list-bullet">
+<li data-line="191" dir="auto"><span class="list-bullet"></span>jest ciemna, metalowa, obsydianowa w wyglądzie,</li>
+<li data-line="192" dir="auto"><span class="list-bullet"></span>kapłan próbował po nią sięgnąć po walce,</li>
+<li data-line="193" dir="auto"><span class="list-bullet"></span>przedmiot trafia do <a data-href="Illias" href="people/players_team/characters/illias.html" class="internal-link" target="_self" rel="noopener nofollow">Illias</a>a do późniejszego sprawdzenia.</li>
+</ul>
+</li>
+<li data-line="194" dir="auto"><span class="list-bullet"></span>Drużyna rozmawia z przywódcą obwiesiów.</li>
+<li data-line="195" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Przywódca zdradza, że:
+<ul class="has-list-bullet">
+<li data-line="196" dir="auto"><span class="list-bullet"></span>kapłan pytał o plany tuneli,</li>
+<li data-line="197" dir="auto"><span class="list-bullet"></span>chodziło o przeprowadzenie kilku uzbrojonych grup przez podziemia na teren zamku,</li>
+<li data-line="198" dir="auto"><span class="list-bullet"></span>kapłan zdążył już wysłać wiadomość do innych ludzi,</li>
+<li data-line="199" dir="auto"><span class="list-bullet"></span>dwa oddziały po sześć osób już ruszyły,</li>
+<li data-line="200" dir="auto"><span class="list-bullet"></span>miały własne plany i potrzebowały informacji <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a, żeby połączyć je z dodatkowymi przejściami.</li>
+</ul>
+</li>
+<li data-line="201" dir="auto"><span class="list-bullet"></span>Drużyna próbuje ustalić, czy obwiesie mogą obserwować tunele, ale uznaje, że byłoby to kosztowne i mało pewne.</li>
+<li data-line="202" dir="auto"><span class="list-bullet"></span>Przywódca obwiesiów otrzymuje ostrzeżenie, żeby nie mieszać się dalej w sprawę.</li>
+<li data-line="203" dir="auto"><span class="list-bullet"></span>Obwiesie zostają puszczeni wolno, a jednemu z rannych drużyna udziela pomocy, co robi dobre wrażenie na przywódcy.</li>
+</ul>
+</li>
+<li data-line="205" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Rozmowa z <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>em:</p>
+<ul class="has-list-bullet">
+<li data-line="206" dir="auto"><span class="list-bullet"></span><a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a> jest wdzięczny za uratowanie życia.</li>
+<li data-line="207" dir="auto"><span class="list-bullet"></span>Drużyna podaje mu alkohol i przechodzi do sprawy tuneli.</li>
+<li data-line="208" dir="auto"><span class="list-bullet"></span><a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a> rozpoznaje, że wszyscy nagle szukają wejść do tuneli, ale akceptuje wyjaśnienia drużyny.</li>
+<li data-line="209" dir="auto"><span class="list-bullet"></span>Drużyna podaje przykrywkę z zagrożeniem w podziemiach i rodziną szlachecką.</li>
+<li data-line="210" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span><a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a> wskazuje dobre wejście:
+<ul class="has-list-bullet">
+<li data-line="211" dir="auto"><span class="list-bullet"></span>znajduje się pod mostem,</li>
+<li data-line="212" dir="auto"><span class="list-bullet"></span>jest blisko rodu, na który powołuje się drużyna,</li>
+<li data-line="213" dir="auto"><span class="list-bullet"></span>wygląda jak wejście do kanałów/tuneli,</li>
+<li data-line="214" dir="auto"><span class="list-bullet"></span>niewiele osób o nim wie,</li>
+<li data-line="215" dir="auto"><span class="list-bullet"></span>głębiej przejście jest zaplombowane/zamurowane.</li>
+</ul>
+</li>
+<li data-line="216" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span><a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a> mówi, że plomba może być bardzo stara:
+<ul class="has-list-bullet">
+<li data-line="217" dir="auto"><span class="list-bullet"></span>setki lub nawet tysiące lat,</li>
+<li data-line="218" dir="auto"><span class="list-bullet"></span>nie wie, jak gruba jest ściana,</li>
+<li data-line="219" dir="auto"><span class="list-bullet"></span>może wymagać młotów albo innego sposobu przebicia.</li>
+</ul>
+</li>
+<li data-line="220" dir="auto"><span class="list-bullet"></span>Na plombie kiedyś widoczny był zatarty napis z imieniem brzmiącym jak Adgrodot.</li>
+<li data-line="221" dir="auto"><span class="list-bullet"></span>Drużyna kojarzy, że Adgrodot to dawne imię Horkosa.</li>
+<li data-line="222" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span><a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a> opisuje zachodni tunel:
+<ul class="has-list-bullet">
+<li data-line="223" dir="auto"><span class="list-bullet"></span>jest dość szeroki,</li>
+<li data-line="224" dir="auto"><span class="list-bullet"></span>biegnie wzdłuż granicy z pałacem,</li>
+<li data-line="225" dir="auto"><span class="list-bullet"></span>prawa strona tunelu przylega do murów pałacowych,</li>
+<li data-line="226" dir="auto"><span class="list-bullet"></span>przejście do celu miałoby zająć około pół godziny spokojnym tempem.</li>
+</ul>
+</li>
+<li data-line="227" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span><a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a> dorysowuje na mapie:
+<ul class="has-list-bullet">
+<li data-line="228" dir="auto"><span class="list-bullet"></span>wejście do tunelu,</li>
+<li data-line="229" dir="auto"><span class="list-bullet"></span>trasę przez tunel,</li>
+<li data-line="230" dir="auto"><span class="list-bullet"></span>miejsce przy posiadłościach rodu,</li>
+<li data-line="231" dir="auto"><span class="list-bullet"></span>awaryjne wyjście po stronie pałacowej,</li>
+<li data-line="232" dir="auto"><span class="list-bullet"></span>fragmenty pałacowych podziemi przy styku z tunelami.</li>
+</ul>
+</li>
+<li data-line="233" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span><a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a> ostrzega przed jedną częścią pałacowych podziemi:
+<ul class="has-list-bullet">
+<li data-line="234" dir="auto"><span class="list-bullet"></span>jest mocno chroniona,</li>
+<li data-line="235" dir="auto"><span class="list-bullet"></span>strażników jest tam więcej,</li>
+<li data-line="236" dir="auto"><span class="list-bullet"></span>visceromanci robią tam „swoje rzeczy”,</li>
+<li data-line="237" dir="auto"><span class="list-bullet"></span>magia visceromantów może wpływać na to miejsce,</li>
+<li data-line="238" dir="auto"><span class="list-bullet"></span>według zasłyszanych informacji visceromanci prowadzą tam eksperymenty na istotach.</li>
+</ul>
+</li>
+<li data-line="239" dir="auto"><span class="list-bullet"></span>Drużyna łączy to z wcześniejszymi obserwacjami krasnoludów przewożonych w słojach.</li>
+</ul>
+</li>
+<li data-line="241" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Przesłuchanie kapłana Nox:</p>
+<ul class="has-list-bullet">
+<li data-line="242" dir="auto"><span class="list-bullet"></span>Kapłan zostaje zastraszony i przepytany.</li>
+<li data-line="243" dir="auto"><span class="list-bullet"></span>Potwierdza, że jego ludzie chcieli wejść do tuneli tak jak drużyna.</li>
+<li data-line="244" dir="auto"><span class="list-bullet"></span>Celem było wyciągnięcie <a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a> z pałacu.</li>
+<li data-line="245" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Kapłan wie mało o samej <a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a>:
+<ul class="has-list-bullet">
+<li data-line="246" dir="auto"><span class="list-bullet"></span>nie zna dokładnego powodu, dla którego <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a> jej chce,</li>
+<li data-line="247" dir="auto"><span class="list-bullet"></span>sugeruje, że może chodzić o zemstę.</li>
+</ul>
+</li>
+<li data-line="248" dir="auto"><span class="list-bullet"></span>Kapłan nie zna planów <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a wobec armii stojącej pod miastem.</li>
+<li data-line="249" dir="auto"><span class="list-bullet"></span>Kapłan mówi, że jego bogini zesłała mu wizję, żeby poszedł za Raedem.</li>
+<li data-line="250" dir="auto"><span class="list-bullet"></span>Od kilku dni nie słyszy już swojej bogini.</li>
+<li data-line="251" dir="auto"><span class="list-bullet"></span>Podczas modlitwy słyszy tylko brzęczenie robaków.</li>
+<li data-line="252" dir="auto"><span class="list-bullet"></span>Drużyna sugeruje mu, że boginie zostały „zjedzone przez robaki Orma”.</li>
+<li data-line="253" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Pojawia się próba religijnego/ideologicznego złamania lub nawrócenia kapłana:
+<ul class="has-list-bullet">
+<li data-line="254" dir="auto"><span class="list-bullet"></span>drużyna mówi, że działa przeciw rozprzestrzenianiu się robactwa,</li>
+<li data-line="255" dir="auto"><span class="list-bullet"></span>pada motyw ratowania bogini,</li>
+<li data-line="256" dir="auto"><span class="list-bullet"></span>kapłan jest przestraszony, złamany i zdezorientowany.</li>
+</ul>
+</li>
+<li data-line="257" dir="auto"><span class="list-bullet"></span>Ostatecznie drużyna nie zabiera go do bazy.</li>
+<li data-line="258" dir="auto"><span class="list-bullet"></span>Kapłan ma ukryć się w mieście i przez dwie doby nie kontaktować się ze swoimi.</li>
+<li data-line="259" dir="auto"><span class="list-bullet"></span><a data-href="Frank" href="people/players_team/characters/frank.html" class="internal-link" target="_self" rel="noopener nofollow">Frank</a> ma go śledzić/zastraszać, pokazując mu, że jest obserwowany.</li>
+<li data-line="260" dir="auto"><span class="list-bullet"></span>Kapłan wydaje się skutecznie złamany i mało prawdopodobne, żeby natychmiast zagroził drużynie.</li>
+</ul>
+</li>
+<li data-line="262" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Powrót do bazy zakonu Beithira:</p>
+<ul class="has-list-bullet">
+<li data-line="263" dir="auto"><span class="list-bullet"></span>Drużyna wraca do bazy.</li>
+<li data-line="264" dir="auto"><span class="list-bullet"></span><a data-href="Gothard" href="people/npc/edonia_npc/gothard.html" class="internal-link" target="_self" rel="noopener nofollow">Gothard</a> nadal czeka.</li>
+<li data-line="265" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span><a data-href="Gothard" href="people/npc/edonia_npc/gothard.html" class="internal-link" target="_self" rel="noopener nofollow">Gothard</a> przekazuje dodatkową informację:
+<ul class="has-list-bullet">
+<li data-line="266" dir="auto"><span class="list-bullet"></span><a data-href="Alda" href="people/npc/edonia_npc/alda.html" class="internal-link" target="_self" rel="noopener nofollow">Alda</a> była w międzyczasie w bazie,</li>
+<li data-line="267" dir="auto"><span class="list-bullet"></span>wie, gdzie mieszkają strażnicy podsłuchani wcześniej w klasie,</li>
+<li data-line="268" dir="auto"><span class="list-bullet"></span>strażnicy mają tego wieczoru zmianę w podziemiach,</li>
+<li data-line="269" dir="auto"><span class="list-bullet"></span>mogli mieć informacje o nowej elfce trzymanej w pałacowych podziemiach.</li>
+</ul>
+</li>
+<li data-line="270" dir="auto"><span class="list-bullet"></span>Drużyna rozważa, czy nadal warto iść do strażników.</li>
+<li data-line="271" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Ostatecznie uznaje, że:
+<ul class="has-list-bullet">
+<li data-line="272" dir="auto"><span class="list-bullet"></span><a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a> już wysłał ludzi,</li>
+<li data-line="273" dir="auto"><span class="list-bullet"></span>nie ma czasu na dodatkowe rozpoznanie,</li>
+<li data-line="274" dir="auto"><span class="list-bullet"></span>lepiej działać natychmiast i śledzić oddziały w tunelach.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-line="276" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Nowy plan drużyny:</p>
+<ul class="has-list-bullet">
+<li data-line="277" dir="auto"><span class="list-bullet"></span>Drużyna postanawia nie wchodzić od razu frontalnie.</li>
+<li data-line="278" dir="auto"><span class="list-bullet"></span>Plan polega na obserwacji trzech wejść do tuneli i śledzeniu ludzi <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a.</li>
+<li data-line="279" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Cel:
+<ul class="has-list-bullet">
+<li data-line="280" dir="auto"><span class="list-bullet"></span>zobaczyć, którędy oddziały <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a wejdą,</li>
+<li data-line="281" dir="auto"><span class="list-bullet"></span>pozwolić im wykonać część roboty,</li>
+<li data-line="282" dir="auto"><span class="list-bullet"></span>zareagować, jeśli im nie pójdzie,</li>
+<li data-line="283" dir="auto"><span class="list-bullet"></span>przejąć <a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a> w drodze powrotnej albo dołączyć w odpowiednim momencie.</li>
+</ul>
+</li>
+<li data-line="284" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Drużyna rozważa ryzyko:
+<ul class="has-list-bullet">
+<li data-line="285" dir="auto"><span class="list-bullet"></span>oddziały <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a mogą zginąć i zaalarmować pałac,</li>
+<li data-line="286" dir="auto"><span class="list-bullet"></span>straż może wtedy lepiej zabezpieczyć <a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a>,</li>
+<li data-line="287" dir="auto"><span class="list-bullet"></span>nie wiadomo, czy oddziały rzeczywiście idą po <a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a>,</li>
+<li data-line="288" dir="auto"><span class="list-bullet"></span>część z nich może zostać wybita przez pałac.</li>
+</ul>
+</li>
+<li data-line="289" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Ostateczny podział obserwacji:
+<ul class="has-list-bullet">
+<li data-line="290" dir="auto"><span class="list-bullet"></span><a data-href="Frank" href="people/players_team/characters/frank.html" class="internal-link" target="_self" rel="noopener nofollow">Frank</a> obstawia jedno wejście,</li>
+<li data-line="291" dir="auto"><span class="list-bullet"></span><a data-href="Illias" href="people/players_team/characters/illias.html" class="internal-link" target="_self" rel="noopener nofollow">Illias</a> obstawia drugie wejście i może teleportować się do reszty,</li>
+<li data-line="292" dir="auto"><span class="list-bullet"></span>reszta drużyny obstawia środkowe wejście.</li>
+</ul>
+</li>
+<li data-line="293" dir="auto"><span class="list-bullet"></span><a data-href="Illias" href="people/players_team/characters/illias.html" class="internal-link" target="_self" rel="noopener nofollow">Illias</a> dostaje/ma użyć „tarczy poduszkowej”, żeby móc spać na warcie i zostać obudzonym w razie zagrożenia.</li>
+<li data-line="294" dir="auto"><span class="list-bullet"></span>Wejścia do tuneli są oddalone od siebie o około 2–2,5 km.</li>
+<li data-line="295" dir="auto"><span class="list-bullet"></span>Są ułożone po wschodniej stronie pałacu, mniej więcej na osi północ-południe po łuku.</li>
+<li data-line="296" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Wejścia wyglądają jak:
+<ul class="has-list-bullet">
+<li data-line="297" dir="auto"><span class="list-bullet"></span>kanały,</li>
+<li data-line="298" dir="auto"><span class="list-bullet"></span>przejścia pod mostem,</li>
+<li data-line="299" dir="auto"><span class="list-bullet"></span>gruzowiska z większą jamą,</li>
+<li data-line="300" dir="auto"><span class="list-bullet"></span>brudne, śmieciowe miejsca przy rzece lub w slumsach.</li>
+</ul>
+</li>
+<li data-line="301" dir="auto"><span class="list-bullet"></span>Przy wejściach przebywają bezdomni, którzy szybko się rozchodzą po pojawieniu się drużyny.</li>
+</ul>
+</li>
+<li data-line="303" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Obserwacja wejść:</p>
+<ul class="has-list-bullet">
+<li data-line="304" dir="auto"><span class="list-bullet"></span>Drużyna dociera w okolice wejść około godziny 16.</li>
+<li data-line="305" dir="auto"><span class="list-bullet"></span>Początkowa obserwacja nie wskazuje, by ktoś już wszedł do obserwowanych tuneli.</li>
+<li data-line="306" dir="auto"><span class="list-bullet"></span><a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> przez chwilę błędnie interpretuje ślady deszczu jako ślady wejścia ludzi, ale reszta drużyny go koryguje.</li>
+<li data-line="307" dir="auto"><span class="list-bullet"></span><a data-href="Illias" href="people/players_team/characters/illias.html" class="internal-link" target="_self" rel="noopener nofollow">Illias</a> przy swoim wejściu przebiera się/charakteryzuje na bezdomnego i wtapia się w otoczenie.</li>
+<li data-line="308" dir="auto"><span class="list-bullet"></span>Bezdomni traktują go jak swojego, choć zazdrośnie patrzą na jego poduszkę/tarczę.</li>
+<li data-line="309" dir="auto"><span class="list-bullet"></span>Mija kilka godzin bez wydarzeń.</li>
+<li data-line="310" dir="auto"><span class="list-bullet"></span>Około 21–22 robi się ciemno i zaczyna się właściwy ruch.</li>
+</ul>
+</li>
+<li data-line="312" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Wejście oddziałów <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a:</p>
+<ul class="has-list-bullet">
+<li data-line="313" dir="auto"><span class="list-bullet"></span>Pierwsza grupa sześciu osób wchodzi do tunelu obserwowanego przez <a data-href="Frank" href="people/players_team/characters/frank.html" class="internal-link" target="_self" rel="noopener nofollow">Frank</a>a.</li>
+<li data-line="314" dir="auto"><span class="list-bullet"></span>Druga grupa sześciu osób zmierza do środkowego wejścia, gdzie jest reszta drużyny.</li>
+<li data-line="315" dir="auto"><span class="list-bullet"></span><a data-href="Frank" href="people/players_team/characters/frank.html" class="internal-link" target="_self" rel="noopener nofollow">Frank</a> informuje <a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a>a o ruchu pierwszej grupy.</li>
+<li data-line="316" dir="auto"><span class="list-bullet"></span><a data-href="Frank" href="people/players_team/characters/frank.html" class="internal-link" target="_self" rel="noopener nofollow">Frank</a> dostaje polecenie, żeby śledzić pierwszą grupę z bezpiecznej odległości.</li>
+<li data-line="317" dir="auto"><span class="list-bullet"></span><a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> przemienia się w ptaka/nietoperza lub inną latającą formę, żeby szybko powiadomić <a data-href="Illias" href="people/players_team/characters/illias.html" class="internal-link" target="_self" rel="noopener nofollow">Illias</a>a.</li>
+<li data-line="318" dir="auto"><span class="list-bullet"></span><a data-href="Illias" href="people/players_team/characters/illias.html" class="internal-link" target="_self" rel="noopener nofollow">Illias</a> budzi się i zostaje poinformowany, że dwie grupy weszły do tuneli.</li>
+<li data-line="319" dir="auto"><span class="list-bullet"></span><a data-href="Illias" href="people/players_team/characters/illias.html" class="internal-link" target="_self" rel="noopener nofollow">Illias</a> ma dołączyć do śledzenia grupy <a data-href="Frank" href="people/players_team/characters/frank.html" class="internal-link" target="_self" rel="noopener nofollow">Frank</a>a albo przemieścić się do odpowiedniego wejścia.</li>
+<li data-line="320" dir="auto"><span class="list-bullet"></span><a data-href="Corvus" href="people/players_team/characters/corvus.html" class="internal-link" target="_self" rel="noopener nofollow">Corvus</a> wraca teleportacją do środkowego tunelu.</li>
+</ul>
+</li>
+<li data-line="322" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Śledzenie grup:</p>
+<ul class="has-list-bullet">
+<li data-line="323" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Grupa śledzona przez drużynę:
+<ul class="has-list-bullet">
+<li data-line="324" dir="auto"><span class="list-bullet"></span>porusza się bardzo cicho,</li>
+<li data-line="325" dir="auto"><span class="list-bullet"></span>idzie powoli i ostrożnie,</li>
+<li data-line="326" dir="auto"><span class="list-bullet"></span>unika światła,</li>
+<li data-line="327" dir="auto"><span class="list-bullet"></span>utrzymuje dyscyplinę,</li>
+<li data-line="328" dir="auto"><span class="list-bullet"></span>znajduje się około 100–200 metrów przed drużyną,</li>
+<li data-line="329" dir="auto"><span class="list-bullet"></span>z daleka trudno określić ich rasy i klasy,</li>
+<li data-line="330" dir="auto"><span class="list-bullet"></span>po posturze widać jedną postać niższą jak krasnolud, jedną bardzo niską jak niziołek i resztę wyglądającą jak zwykłe wojsko.</li>
+</ul>
+</li>
+<li data-line="331" dir="auto"><span class="list-bullet"></span>Drużyna oznacza drogę kredą/znakami, aby <a data-href="Illias" href="people/players_team/characters/illias.html" class="internal-link" target="_self" rel="noopener nofollow">Illias</a> mógł ich później znaleźć.</li>
+<li data-line="332" dir="auto"><span class="list-bullet"></span>Rzuty na survival/percepcję wychodzą dobrze i oznaczanie trasy działa.</li>
+<li data-line="333" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Grupa obserwowana przez <a data-href="Frank" href="people/players_team/characters/frank.html" class="internal-link" target="_self" rel="noopener nofollow">Frank</a>a:
+<ul class="has-list-bullet">
+<li data-line="334" dir="auto"><span class="list-bullet"></span>jest mniej dyskretna,</li>
+<li data-line="335" dir="auto"><span class="list-bullet"></span>od razu używa pochodni,</li>
+<li data-line="336" dir="auto"><span class="list-bullet"></span>składa się z czterech krasnoludów, elfa i człowieka,</li>
+<li data-line="337" dir="auto"><span class="list-bullet"></span>dwóch krasnoludów jest ciężko opancerzonych w pełnej płycie,</li>
+<li data-line="338" dir="auto"><span class="list-bullet"></span>w grupie jest mag,</li>
+<li data-line="339" dir="auto"><span class="list-bullet"></span>są też dwaj kapłani/cieniowi kapłani, bardziej ofensywni niż leczący,</li>
+<li data-line="340" dir="auto"><span class="list-bullet"></span>grupa często zatrzymuje się, by sprawdzić mapę,</li>
+<li data-line="341" dir="auto"><span class="list-bullet"></span>po kilku rozgałęzieniach schodzi z ceglanych tuneli do korytarzy wykutych w skale.</li>
+</ul>
+</li>
+<li data-line="342" dir="auto"><span class="list-bullet"></span>Sesja kończy się, gdy obie grupy dochodzą do murów łączących tunele z pałacem.</li>
+<li data-line="343" dir="auto"><span class="list-bullet"></span>Następna sesja prawdopodobnie zacznie się od próby przejścia/przebicia się tych grup do pałacu.</li>
+</ul>
+</li>
+<li data-line="345" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Ważne informacje fabularne:</p>
+<ul class="has-list-bullet">
+<li data-line="346" dir="auto"><span class="list-bullet"></span><a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a> działa szybciej, niż drużyna zakładała.</li>
+<li data-line="347" dir="auto"><span class="list-bullet"></span><a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a> nie czeka wyłącznie na oficjalne przekazanie <a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a>, tylko wysłał własne oddziały przez podziemia.</li>
+<li data-line="348" dir="auto"><span class="list-bullet"></span>Kościół Nox jest zaangażowany w akcję <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a.</li>
+<li data-line="349" dir="auto"><span class="list-bullet"></span>Część kapłanów Nox może być duchowo odcięta od bogini i słyszeć „brzęczenie robaków”.</li>
+<li data-line="350" dir="auto"><span class="list-bullet"></span>Visceromanci mają w pałacu silnie chronione obszary i prowadzą eksperymenty na istotach.</li>
+<li data-line="351" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>W pałacu prawdopodobnie działa magiczna „bańka”/system ochronny:
+<ul class="has-list-bullet">
+<li data-line="352" dir="auto"><span class="list-bullet"></span>wzmacnia mury,</li>
+<li data-line="353" dir="auto"><span class="list-bullet"></span>może oznaczać lub wykrywać osoby przechodzące przez granicę pałacu,</li>
+<li data-line="354" dir="auto"><span class="list-bullet"></span>visceromanci lub osoby związane z magią mogą wiedzieć, że ktoś przeszedł przez barierę.</li>
+</ul>
+</li>
+<li data-line="355" dir="auto"><span class="list-bullet"></span>Zachodnie tunele są bardzo stare i mogą mieć związek z Adgrodotem.</li>
+<li data-line="356" dir="auto"><span class="list-bullet"></span>Stara plomba z napisem związanym z Adgrodotem może oznaczać, że za murem znajduje się coś więcej niż zwykły korytarz.</li>
+<li data-line="357" dir="auto"><span class="list-bullet"></span><a data-href="Alda" href="people/npc/edonia_npc/alda.html" class="internal-link" target="_self" rel="noopener nofollow">Alda</a> ma aktualne informacje o strażnikach z podziemi, ale drużyna na razie nie korzysta z tego tropu.</li>
+</ul>
+</li>
+<li data-line="359" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Ważne decyzje drużyny:</p>
+<ul class="has-list-bullet">
+<li data-line="360" dir="auto"><span class="list-bullet"></span>Nie wysyłać listu gołębiem.</li>
+<li data-line="361" dir="auto"><span class="list-bullet"></span>Nie ryzykować planu z podszyciem się pod visceromantów bez dodatkowych informacji.</li>
+<li data-line="362" dir="auto"><span class="list-bullet"></span>Iść do <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a z alkoholem i przykrywką polityczno-szlachecką.</li>
+<li data-line="363" dir="auto"><span class="list-bullet"></span>Nie zabijać obwiesiów, jeśli da się ich obezwładnić lub przekonać.</li>
+<li data-line="364" dir="auto"><span class="list-bullet"></span>Utrzymać przy życiu kapłana Nox, żeby go przesłuchać.</li>
+<li data-line="365" dir="auto"><span class="list-bullet"></span>Nie prowadzić kapłana do bazy.</li>
+<li data-line="366" dir="auto"><span class="list-bullet"></span>Złamać go psychologicznie i zmusić, by ukrywał się przez dwie doby.</li>
+<li data-line="367" dir="auto"><span class="list-bullet"></span>Zrezygnować z planu listu po odkryciu akcji <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a.</li>
+<li data-line="368" dir="auto"><span class="list-bullet"></span>Obserwować trzy wejścia do tuneli.</li>
+<li data-line="369" dir="auto"><span class="list-bullet"></span>Śledzić oddziały <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a zamiast od razu je atakować.</li>
+<li data-line="370" dir="auto"><span class="list-bullet"></span>Pozwolić przeciwnikom wykonać część rozpoznania/przebicia się do pałacu, a potem zareagować.</li>
+</ul>
+</li>
+<li data-line="372" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>Otwarte wątki na następną sesję:</p>
+<ul class="has-list-bullet">
+<li data-line="373" dir="auto"><span class="list-bullet"></span>Czy oddziały <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a przebiją się przez mury do pałacu?</li>
+<li data-line="374" dir="auto"><span class="list-bullet"></span>Czy drużyna zaatakuje oddziały <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a przed wejściem, w trakcie wejścia, czy dopiero przy próbie wyprowadzenia <a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a>?</li>
+<li data-line="375" dir="auto"><span class="list-bullet"></span>Czy oddziały <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a rzeczywiście idą po <a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a>, czy mają też inne cele?</li>
+<li data-line="376" dir="auto"><span class="list-bullet"></span>Czy <a data-href="Orphne" href="people/npc/orphne_team/orphne.html" class="internal-link" target="_self" rel="noopener nofollow">Orphne</a> jest w części pałacu kontrolowanej przez visceromantów?</li>
+<li data-line="377" dir="auto"><span class="list-bullet"></span>Czy śledzona grupa uruchomi alarm pałacowy lub magiczną barierę?</li>
+<li data-line="378" dir="auto"><span class="list-bullet"></span>Czy <a data-href="Frank" href="people/players_team/characters/frank.html" class="internal-link" target="_self" rel="noopener nofollow">Frank</a> i <a data-href="Illias" href="people/players_team/characters/illias.html" class="internal-link" target="_self" rel="noopener nofollow">Illias</a> utrzymają kontakt z grupą z drugiego wejścia?</li>
+<li data-line="379" dir="auto"><span class="list-bullet"></span>Co zrobią visceromanci, jeśli wykryją naruszenie bariery?</li>
+<li data-line="380" dir="auto"><span class="list-bullet"></span>Czy kapłan Nox faktycznie pozostanie ukryty przez dwie doby?</li>
+<li data-line="381" dir="auto"><span class="list-bullet"></span>Czy ludzie <a data-href="Raed" href="people/npc/ikelos_npc/raed.html" class="internal-link" target="_self" rel="noopener nofollow">Raed</a>a zorientują się, że kapłan zniknął albo że jego akcja u <a data-href="Architekt" href="people/npc/edonia_npc/architekt.html" class="internal-link" target="_self" rel="noopener nofollow">Architekt</a>a została przerwana?</li>
+<li data-line="382" dir="auto"><span class="list-bullet"></span>Czy strój posłańca od <a data-href="Valgrid" href="people/npc/edonia_npc/valgrid.html" class="internal-link" target="_self" rel="noopener nofollow">Valgrid</a>a zostanie odebrany i użyty w przyszłości?</li>
+<li data-line="383" dir="auto"><span class="list-bullet"></span>Czy drużyna wróci jeszcze do tropu strażników wskazanych przez Aldę?</li>
+<li data-line="384" dir="auto"><span class="list-bullet"></span>Co dokładnie oznacza brzęczenie robaków słyszane przez kapłana podczas modlitwy?</li>
+<li data-line="385" dir="auto"><span class="list-bullet"></span>Czy bogini Nox została odcięta, pochłonięta albo zastąpiona przez wpływ Orma?</li>
+</ul>
+</li>
+</ul></div><div class="footer"><div class="data-bar"></div></div></div></div></div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"><div id="right-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme-toggle-input" id=""><input class="theme-toggle-input" type="checkbox" id="theme-toggle-input"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="right-sidebar-content" class="leaf-content"><div class="graph-view-wrapper"><div class="feature-header"><div class="feature-title">Interactive Graph</div></div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<div class="graph-icon graph-global" role="button" aria-label="Global Graph" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div id="outline" class=" tree-container"><div class="feature-header"><div class="feature-title">Table Of Contents</div><button class="clickable-icon nav-action-button tree-collapse-all" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-item" data-depth="1"><a class="tree-item-self is-clickable" href="sessions/sesja-2026-06-15.html#Sesja_2026-06-15_0" data-path="#Sesja_2026-06-15_0"><div class="tree-item-inner heading-link" heading-name="Sesja 2026-06-15">Sesja 2026-06-15</div></a><div class="tree-item-children"></div></div></div></div></div><script defer="">let rs = document.querySelector("#right-sidebar"); rs.classList.toggle("is-collapsed", window.innerWidth < 768); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></div></div></body></html>
