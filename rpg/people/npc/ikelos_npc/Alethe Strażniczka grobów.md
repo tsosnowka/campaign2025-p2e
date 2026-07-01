@@ -2,7 +2,7 @@ Płeć: [[Kobieta]]
 Rasa: [[Elf]]
 Widziany w: [[Ikelos]]
 
-Pracuje z [[Oforos były kapłan]] i [[Ignis]]. Jest Strażniczką grobów z kultu bogini [[Aklys Wampir]]
+Pracuje z [[Oforos]] i [[Ignis]]. Jest Strażniczką grobów z kultu bogini [[Aklys Wampir]]
 
 Zaliczyła dyntkę.
 ###### Wygląd postaci

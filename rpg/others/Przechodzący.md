@@ -4,4 +4,4 @@ Podobnie jak pierwsza cywilizacja podbijają światy. Obecnie przegrywają wojn�
 
 Znanymi nam przedstawicielami tej rasy są:
 - [[Khoratran]]
-- [[Iravel uczennica Khoratrana]]
+- [[Iravel]]

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1615e91077a9bd96",
+        "id": "facec5a041706bb4",
         "type": "tabs",
         "children": [
           {
-            "id": "c07e6b5aaed22e27",
+            "id": "77a9b6159410ab4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "people/npc/telgwyth/Brat Daetor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Brat Daetor"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "uczennica",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 326.5
   },
   "right": {
     "id": "5f9a3baf5de4ea15",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "people/npc/telgwyth/Brat Daetor.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Konspekt index"
+              "title": "Konspekt Brat Daetor"
             }
           }
         ],
@@ -156,12 +156,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 617.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Otwórz podgląd grafu": false,
       "daily-notes:Otwórz dzisiejszy dziennik": false,
+      "graph:Otwórz podgląd grafu": false,
       "webpage-html-export:Export as HTML": false,
       "switcher:Otwórz okno szybkiego wyboru": false,
       "canvas:Stwórz nową tablicę": false,
@@ -170,8 +170,11 @@
       "bases:Stwórz nową bazę danych": false
     }
   },
-  "active": "c07e6b5aaed22e27",
+  "active": "77a9b6159410ab4e",
   "lastOpenFiles": [
+    "people/npc/telgwyth/Iravel.md",
+    "people/npc/telgwyth/Brat Daetor.md",
+    "index.md",
     "gm/Historia Orphne info od GM.md",
     "places/countries/Edonia.md",
     "gm/Edonia info od GM.md",
@@ -195,29 +198,26 @@
     "core/gender/Kobieta.md",
     "core/races/Catfolk.md",
     "core/races/Dwarf.md",
-    "core/races/Elf.md",
-    "core/races/Half-Elf.md",
-    "core/races/Half-Orc.md",
+    "people/npc/new_morvanon_npc",
+    "people/npc/edonia_npc",
+    "people/npc/new/Otwin.md~",
+    "sessions/Sesja 2026-05-25.md~",
+    "people/npc/new",
+    "src/pantheon_aquila_2.jpg",
+    "sessions/Sesja 2026-06-15.md~",
+    "sessions/Sesja 2026-01-19.md~",
+    "sessions/Sesja 2026-05-04.md~",
+    "sessions/Sesja 2025-10-23.md~",
+    "sessions/Sesja 2026-03-30.md~",
+    "src/npc/npc_meirwen.png",
+    "src/npc/npc_asardin.jpg",
     "src/creature_1.png",
-    "people/telgwyth",
-    "Bez nazwy.base",
     "src/places/places_telgwyth.png",
-    "people/npc/telgwyth",
     "src/pantheon_junn.jpg",
     "src/pantheon_aquila_1.jpg",
     "src/ot_yuphistes.jpg",
     "src/ot_zorgac.jpg",
-    "rule_book/spells/all_spells/spell3/spell3_todo",
-    "rule_book/spells/all_spells/spell2/spell2_todo",
-    "rule_book/spells/all_spells/spell1/spell1_todo",
-    "rule_book/spells/all_spells/spell3",
     "Pasted image 20251117195217.png",
-    "src/npc/npc_agetos.png",
-    "src/pantheon_aklys.png",
-    "src/places",
-    "src/player",
-    "src/npc",
-    "src/npc/npc_melanthos.png",
     "Bez nazwy.canvas",
     "core/Bez nazwy.canvas"
   ]

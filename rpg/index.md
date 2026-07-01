@@ -16,6 +16,3 @@ if(firstPage) {
 ```
 ---
 [[Nasza drużyna]] 
-
----
-[[Drużyna Orphne]]
